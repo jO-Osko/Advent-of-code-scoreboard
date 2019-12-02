@@ -11287,6 +11287,7 @@ var $elm$core$List$filter = F2(
 			list);
 	});
 var $elm$html$Html$h1 = _VirtualDom_node('h1');
+var $elm$html$Html$h3 = _VirtualDom_node('h3');
 var $rundis$elm_bootstrap$Bootstrap$Grid$Internal$Col = {$: 'Col'};
 var $rundis$elm_bootstrap$Bootstrap$Grid$Internal$Width = F2(
 	function (screenSize, columnCount) {
@@ -12092,6 +12093,7 @@ var $author$project$Models$showAssigmentPoint = function (_v0) {
 	return $elm$core$String$fromFloat(p / 8) + ' Točk';
 };
 var $elm$core$List$sortBy = _List_sortBy;
+var $elm$html$Html$Attributes$target = $elm$html$Html$Attributes$stringProperty('target');
 var $author$project$App$view = function (model) {
 	return A2(
 		$rundis$elm_bootstrap$Bootstrap$Grid$container,
@@ -12105,6 +12107,23 @@ var $author$project$App$view = function (model) {
 					_List_fromArray(
 						[
 							$elm$html$Html$text('Sprotni rezultati točkovanj advent of code ')
+						])),
+					A2(
+					$elm$html$Html$h3,
+					_List_Nil,
+					_List_fromArray(
+						[
+							A2(
+							$elm$html$Html$a,
+							_List_fromArray(
+								[
+									$elm$html$Html$Attributes$href('https://adventofcode.com/2019/leaderboard/private/view/7040'),
+									$elm$html$Html$Attributes$target('_blank')
+								]),
+							_List_fromArray(
+								[
+									$elm$html$Html$text('https://adventofcode.com/2019/leaderboard/private/view/7040')
+								]))
 						])),
 					A2(
 					$rundis$elm_bootstrap$Bootstrap$Grid$row,
@@ -12124,6 +12143,13 @@ var $author$project$App$view = function (model) {
 							_List_fromArray(
 								[
 									$elm$html$Html$text('Ime')
+								])),
+							A2(
+							$rundis$elm_bootstrap$Bootstrap$Grid$col,
+							_List_Nil,
+							_List_fromArray(
+								[
+									$elm$html$Html$text('Github')
 								])),
 							A2(
 							$rundis$elm_bootstrap$Bootstrap$Grid$col,
@@ -12155,6 +12181,31 @@ var $author$project$App$view = function (model) {
 								_List_fromArray(
 									[
 										$elm$html$Html$text(user.name + (' ' + user.surname))
+									])),
+								A2(
+								$rundis$elm_bootstrap$Bootstrap$Grid$col,
+								_List_Nil,
+								_List_fromArray(
+									[
+										function () {
+										var _v0 = user.githubLink;
+										if (_v0.$ === 'Nothing') {
+											return $elm$html$Html$text('');
+										} else {
+											var link = _v0.a;
+											return A2(
+												$elm$html$Html$a,
+												_List_fromArray(
+													[
+														$elm$html$Html$Attributes$href(link),
+														$elm$html$Html$Attributes$target('_blank')
+													]),
+												_List_fromArray(
+													[
+														$elm$html$Html$text('link')
+													]));
+										}
+									}()
 									])),
 								A2(
 								$rundis$elm_bootstrap$Bootstrap$Grid$col,

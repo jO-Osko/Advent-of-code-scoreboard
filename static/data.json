@@ -39,7 +39,7 @@
   {
     "name": "Jakob",
     "surname": "Zmrzlikar",
-    "github_link": null,
+    "github_link": "https://github.com/jakobzmrzlikar/AdventOfCode2019",
     "github_repo_link": null,
     "aoc_id": 149034,
     "solution_data": {
@@ -76,7 +76,7 @@
   {
     "name": "Rok",
     "surname": "Strah",
-    "github_link": null,
+    "github_link": "https://github.com/StrahR/AoC-2019",
     "github_repo_link": null,
     "aoc_id": 630026,
     "solution_data": {
@@ -129,7 +129,7 @@
   {
     "name": "Tadej",
     "surname": "Petri\u010d",
-    "github_link": null,
+    "github_link": "https://github.com/tadejpetric/adventofcode",
     "github_repo_link": null,
     "aoc_id": 631107,
     "solution_data": {}
@@ -137,7 +137,7 @@
   {
     "name": "Nace",
     "surname": "Kova\u010di\u010d",
-    "github_link": null,
+    "github_link": "https://github.com/nkovacic99/advent_of_code",
     "github_repo_link": null,
     "aoc_id": 631835,
     "solution_data": {
@@ -160,7 +160,7 @@
   {
     "name": "Nejc",
     "surname": "Zajc",
-    "github_link": null,
+    "github_link": "https://github.com/Matematik411/Advent_of_Code2019",
     "github_repo_link": null,
     "aoc_id": 632718,
     "solution_data": {
@@ -197,7 +197,7 @@
   {
     "name": "Gregor",
     "surname": "Kikelj",
-    "github_link": null,
+    "github_link": "https://github.com/grekiki/Advent-of-code",
     "github_repo_link": null,
     "aoc_id": 632862,
     "solution_data": {
@@ -234,7 +234,7 @@
   {
     "name": "Ga\u0161per",
     "surname": "Rotar",
-    "github_link": null,
+    "github_link": "https://github.com/Podborsek/AdventOfCode2019",
     "github_repo_link": null,
     "aoc_id": 637246,
     "solution_data": {
@@ -257,7 +257,7 @@
   {
     "name": "Ga\u0161per",
     "surname": "Kmeti\u010d",
-    "github_link": null,
+    "github_link": "https://github.com/gapro8/AoC",
     "github_repo_link": null,
     "aoc_id": 637583,
     "solution_data": {}
@@ -265,7 +265,7 @@
   {
     "name": "Izak",
     "surname": "Jenko",
-    "github_link": null,
+    "github_link": "https://github.com/kazi99/AoC2019",
     "github_repo_link": null,
     "aoc_id": 641020,
     "solution_data": {}
@@ -273,9 +273,33 @@
   {
     "name": "Ga\u0161per",
     "surname": "Terglav",
-    "github_link": null,
+    "github_link": "https://github.com/GTerglav/Adventofcode",
     "github_repo_link": null,
     "aoc_id": 642932,
+    "solution_data": {}
+  },
+  {
+    "name": "Nik",
+    "surname": "Mrhar",
+    "github_link": "https://github.com/MrharN18/Advent-of-Code",
+    "github_repo_link": null,
+    "aoc_id": null,
+    "solution_data": {}
+  },
+  {
+    "name": "\u017dan",
+    "surname": "Bajuk",
+    "github_link": "https://github.com/ZanBajuk/AdventOfCode",
+    "github_repo_link": null,
+    "aoc_id": null,
+    "solution_data": {}
+  },
+  {
+    "name": "Andra\u017e",
+    "surname": "Pustoslem\u0161ek",
+    "github_link": "https://github.com/Andraz1999/Advent_of_code",
+    "github_repo_link": null,
+    "aoc_id": null,
     "solution_data": {}
   }
 ]

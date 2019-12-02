@@ -7,7 +7,7 @@ import Browser exposing (element)
 import DateTime exposing (DateTime)
 import Dict
 import Html exposing (..)
-import Html.Attributes exposing (class)
+import Html.Attributes exposing (class, href, target)
 import Html.Events exposing (onClick)
 import Http
 import Json.Decode as Decode exposing (Decoder, succeed)
@@ -199,12 +199,26 @@ view : Model -> Html Msg
 view model =
     Grid.container []
         ([ Html.h1 [] [ text "Sprotni rezultati točkovanj advent of code " ]
-         , Grid.row [ Row.attrs [ class "font-weight-bold" ] ] [ Grid.col [] [ text "Ime" ], Grid.col [] [ text "Točke" ], Grid.col [] [ text "Preverjene točke" ] ]
+         , Html.h3 [] [ a [ href "https://adventofcode.com/2019/leaderboard/private/view/7040", target "_blank" ] [ text "https://adventofcode.com/2019/leaderboard/private/view/7040" ] ]
+         , Grid.row [ Row.attrs [ class "font-weight-bold" ] ]
+            [ Grid.col [] [ text "Ime" ]
+            , Grid.col [] [ text "Github" ]
+            , Grid.col [] [ text "Točke" ]
+            , Grid.col [] [ text "Preverjene točke" ]
+            ]
          ]
             ++ List.map
                 (\user ->
                     Grid.row []
                         [ Grid.col [] [ text (user.name ++ " " ++ user.surname) ]
+                        , Grid.col []
+                            [ case user.githubLink of
+                                Nothing ->
+                                    text ""
+
+                                Just link ->
+                                    a [ href link, target "_blank" ] [ text "link" ]
+                            ]
                         , Grid.col [] [ text (showAssigmentPoint user.bestPoints) ]
                         , Grid.col [] [ text (showAssigmentPoint user.confirmedSolutionPoints) ]
                         ]
