@@ -1,0 +1,281 @@
+[
+  {
+    "name": "Filip",
+    "surname": "Koprivec",
+    "github_link": null,
+    "github_repo_link": null,
+    "aoc_id": 7040,
+    "solution_data": {
+      "1": {
+        "1": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575190818
+        },
+        "2": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575191162
+        }
+      },
+      "2": {
+        "1": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575294133
+        },
+        "2": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575294948
+        }
+      }
+    }
+  },
+  {
+    "name": "Jakob",
+    "surname": "Zmrzlikar",
+    "github_link": null,
+    "github_repo_link": null,
+    "aoc_id": 149034,
+    "solution_data": {
+      "1": {
+        "1": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575279388
+        },
+        "2": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575280126
+        }
+      },
+      "2": {
+        "1": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575281412
+        },
+        "2": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575282345
+        }
+      }
+    }
+  },
+  {
+    "name": "Rok",
+    "surname": "Strah",
+    "github_link": null,
+    "github_repo_link": null,
+    "aoc_id": 630026,
+    "solution_data": {
+      "1": {
+        "1": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575196960
+        },
+        "2": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575197385
+        }
+      },
+      "2": {
+        "1": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575281783
+        },
+        "2": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575282909
+        }
+      }
+    }
+  },
+  {
+    "name": "Martin",
+    "surname": "Koko\u0161inek",
+    "github_link": null,
+    "github_repo_link": null,
+    "aoc_id": 630221,
+    "solution_data": {}
+  },
+  {
+    "name": "Nejc",
+    "surname": "\u0160everkar",
+    "github_link": null,
+    "github_repo_link": null,
+    "aoc_id": 630536,
+    "solution_data": {}
+  },
+  {
+    "name": "Tadej",
+    "surname": "Petri\u010d",
+    "github_link": null,
+    "github_repo_link": null,
+    "aoc_id": 631107,
+    "solution_data": {}
+  },
+  {
+    "name": "Nace",
+    "surname": "Kova\u010di\u010d",
+    "github_link": null,
+    "github_repo_link": null,
+    "aoc_id": 631835,
+    "solution_data": {
+      "1": {
+        "1": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575223247
+        },
+        "2": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575227792
+        }
+      }
+    }
+  },
+  {
+    "name": "Nejc",
+    "surname": "Zajc",
+    "github_link": null,
+    "github_repo_link": null,
+    "aoc_id": 632718,
+    "solution_data": {
+      "1": {
+        "1": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575176591
+        },
+        "2": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575176803
+        }
+      },
+      "2": {
+        "1": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575263538
+        },
+        "2": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575264202
+        }
+      }
+    }
+  },
+  {
+    "name": "Gregor",
+    "surname": "Kikelj",
+    "github_link": null,
+    "github_repo_link": null,
+    "aoc_id": 632862,
+    "solution_data": {
+      "1": {
+        "1": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575176469
+        },
+        "2": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575176572
+        }
+      },
+      "2": {
+        "1": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575263164
+        },
+        "2": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575263477
+        }
+      }
+    }
+  },
+  {
+    "name": "Ga\u0161per",
+    "surname": "Rotar",
+    "github_link": null,
+    "github_repo_link": null,
+    "aoc_id": 637246,
+    "solution_data": {
+      "1": {
+        "1": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575226181
+        },
+        "2": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575227106
+        }
+      }
+    }
+  },
+  {
+    "name": "Ga\u0161per",
+    "surname": "Kmeti\u010d",
+    "github_link": null,
+    "github_repo_link": null,
+    "aoc_id": 637583,
+    "solution_data": {}
+  },
+  {
+    "name": "Izak",
+    "surname": "Jenko",
+    "github_link": null,
+    "github_repo_link": null,
+    "aoc_id": 641020,
+    "solution_data": {}
+  },
+  {
+    "name": "Ga\u0161per",
+    "surname": "Terglav",
+    "github_link": null,
+    "github_repo_link": null,
+    "aoc_id": 642932,
+    "solution_data": {}
+  }
+]
