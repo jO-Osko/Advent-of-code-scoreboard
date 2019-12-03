@@ -33,6 +33,20 @@
           "solved": true,
           "solved_time": 1575294948
         }
+      },
+      "3": {
+        "1": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575361842
+        },
+        "2": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575365349
+        }
       }
     }
   },
@@ -191,6 +205,20 @@
           "solved": true,
           "solved_time": 1575264202
         }
+      },
+      "3": {
+        "1": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575351954
+        },
+        "2": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": false,
+          "solved_time": null
+        }
       }
     }
   },
@@ -227,6 +255,20 @@
           "solution_confirmed": false,
           "solved": true,
           "solved_time": 1575263477
+        }
+      },
+      "3": {
+        "1": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575349492
+        },
+        "2": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575349835
         }
       }
     }
@@ -283,7 +325,7 @@
     "surname": "Mrhar",
     "github_link": "https://github.com/MrharN18/Advent-of-Code",
     "github_repo_link": null,
-    "aoc_id": null,
+    "aoc_id": 644335,
     "solution_data": {}
   },
   {
@@ -301,5 +343,56 @@
     "github_repo_link": null,
     "aoc_id": null,
     "solution_data": {}
+  },
+  {
+    "name": "Samo",
+    "surname": "Kralj",
+    "github_link": null,
+    "github_repo_link": null,
+    "aoc_id": 15797,
+    "solution_data": {
+      "1": {
+        "1": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575184753
+        },
+        "2": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575184969
+        }
+      },
+      "3": {
+        "1": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575355075
+        },
+        "2": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575355241
+        }
+      },
+      "2": {
+        "1": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575270199
+        },
+        "2": {
+          "language": null,
+          "solution_confirmed": false,
+          "solved": true,
+          "solved_time": 1575270638
+        }
+      }
+    }
   }
 ]
