@@ -74,7 +74,7 @@ class UserInfo(JSONSerializable):
         return cls(**kwargs)
 
 
-AOC_INPUT_FILE = "static/aoc_raw_prog1_2019.json"
+AOC_INPUT_FILE = "static/aoc_final.json"
 BASE_FILE = "static/data.json"
 aoc_data = json.loads(open(AOC_INPUT_FILE).read())
 base_data = json.loads(open(BASE_FILE).read())
