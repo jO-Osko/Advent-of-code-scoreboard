@@ -42,17 +42,19 @@ class AssigmentResult(JSONSerializable):
 
 
 class UserInfo(JSONSerializable):
-    SERIALIZABLE_VARS = ["name", "surname", "github_link", "github_repo_link", "aoc_id", "solution_data", ]
+    SERIALIZABLE_VARS = ["name", "surname", "github_link", "github_repo_link",
+                         "aoc_id", "aoc_name", "solution_data", ]
 
     def __init__(self, name: str, surname: str, github_link: Optional[str] = None,
                  github_repo_link: Optional[str] = None, aoc_id: Optional[int] = None,
-                 solution_data: SolutionDict = None):
+                 aoc_name: Optional[str] = None, solution_data: SolutionDict = None):
         super().__init__()
         self.name = name
         self.surname = surname
         self.github_link = github_link
         self.github_repo_link = github_repo_link
         self.aoc_id = aoc_id
+        self.aoc_name = aoc_name
 
         if solution_data is not None:
             self.solution_data = solution_data
@@ -87,13 +89,24 @@ users_dict: Dict[int, UserInfo] = {
     user.aoc_id: user for user in users if user.aoc_id is not None
 }
 
+new_users = [
+
+]
+
 for aoc_id, user in aoc_data["members"].items():
     aoc_id = int(aoc_id)
     if aoc_id not in users_dict:
+        usr = UserInfo(
+            name="",
+            surname="", github_link="", github_repo_link="", aoc_id=aoc_id,
+            aoc_name=user["name"]
+        )
+        new_users.append(usr)
         print("Unknown user:", user["name"])
         continue
     base_user = users_dict[aoc_id]
-
+    if not base_user.aoc_name:
+        base_user.aoc_name = user["name"]
     for day_n, day_info in user["completion_day_level"].items():
         base_day_info = base_user.solution_data.setdefault(int(day_n), dict())
 
@@ -110,3 +123,23 @@ for aoc_id, user in aoc_data["members"].items():
 
 out_data = json.dumps(users, indent=2, cls=JSONSerializableEncoder)
 open(BASE_FILE, "w").write(out_data)
+
+full_users = users + new_users
+out_users = json.dumps(full_users, indent=4, cls=JSONSerializableEncoder)
+open(BASE_FILE, "w").write(out_users)
+
+
+# Manjkajoči na scoreboardu:
+# https://github.com/golobluka/AdventOfCode Luka Golob
+# https://github.com/MTrdin/resevanje_advent_of_code Meta Trdin
+# https://github.com/LucjaFekonja/Advent_of_Code Lucija Fekonja
+# https://github.com/matejmelansek/AdventOfCode Matej Melanšek
+# https://git.sr.ht/~turminal/aoc2020 Bor Grošel Simić
+# https://github.com/timotejstibilj/AdventOfCode Timotej Stibilj
+# https://github.com/ivankobe/Advent_of_Code_2020 Ivan Kobe
+# https://github.com/Teodora-Cvetkovic/Advent-of-Code-2020 Teodora Cvetkovič
+# https://github.com/NinaKlem/PROG1-AoC Nina Klemenčič
+
+
+# Živjo
+# Super da ste se prijavili na Advent of Code, bi Vas pa prosil, da se dodate tudi private leaderboard, da bom lahko sproti spremljal točke. Koda za leaderboard je "7040-03ec17f3", pridružite pa se ji na strani https://adventofcode.com/2020/leaderboard/private. Seveda se morate prej vpisati, najlažje kar z google ali github računom. Se ne mudi, bi bilo pa lepo, da to storite v prihodnjih dneh.

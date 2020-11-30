@@ -10683,37 +10683,8 @@ var $author$project$Models$assigment_plus = F2(
 		var p2 = _v1.a;
 		return $author$project$Models$AssigmentPoint(p1 + p2);
 	});
-var $author$project$Models$Haskell = {$: 'Haskell'};
-var $author$project$Models$OCaml = {$: 'OCaml'};
-var $author$project$Models$Python = {$: 'Python'};
-var $author$project$Models$Unknown = {$: 'Unknown'};
-var $author$project$Models$Unset = {$: 'Unset'};
-var $elm$core$String$toLower = _String_toLower;
-var $author$project$Models$languageFromString = function (str) {
-	if (str.$ === 'Nothing') {
-		return $author$project$Models$Unset;
-	} else {
-		var s = str.a;
-		var _v1 = $elm$core$String$toLower(s);
-		switch (_v1) {
-			case 'ocaml':
-				return $author$project$Models$OCaml;
-			case 'python':
-				return $author$project$Models$Python;
-			case 'haskell':
-				return $author$project$Models$Haskell;
-			default:
-				return $author$project$Models$Unknown;
-		}
-	}
-};
 var $author$project$Models$assigmentFromIntermediate = function (inter) {
-	return {
-		language: $author$project$Models$languageFromString(inter.language),
-		solutionConfirmed: inter.solutionConfirmed,
-		solved: inter.solved,
-		solvedTime: inter.solvedTime
-	};
+	return {solutionConfirmed: inter.solutionConfirmed, solved: inter.solved, solvedTime: inter.solvedTime};
 };
 var $author$project$Models$IntermediateDayResult = F4(
 	function (language, solutionConfirmed, solved, solvedTime) {
@@ -10803,18 +10774,8 @@ var $elm$core$Maybe$map = F2(
 			return $elm$core$Maybe$Nothing;
 		}
 	});
-var $author$project$Models$functionalPoint = $author$project$Models$AssigmentPoint(2);
-var $author$project$Models$isFunctional = function (lang) {
-	switch (lang.$) {
-		case 'OCaml':
-			return true;
-		case 'Haskell':
-			return true;
-		default:
-			return false;
-	}
-};
-var $author$project$Models$normalPoint = $author$project$Models$AssigmentPoint(1);
+var $author$project$Models$halfPoint = 1;
+var $author$project$Models$starAcquiredPoint = $author$project$Models$AssigmentPoint($author$project$Models$halfPoint);
 var $author$project$Models$zeroPoints = $author$project$Models$AssigmentPoint(0);
 var $author$project$Models$score = function (assigmentResult) {
 	var _v0 = function () {
@@ -10822,8 +10783,7 @@ var $author$project$Models$score = function (assigmentResult) {
 		if (!_v1) {
 			return _Utils_Tuple2($author$project$Models$zeroPoints, $author$project$Models$zeroPoints);
 		} else {
-			var fPart = $author$project$Models$isFunctional(assigmentResult.language) ? $author$project$Models$functionalPoint : $author$project$Models$normalPoint;
-			return assigmentResult.solutionConfirmed ? _Utils_Tuple2(fPart, fPart) : _Utils_Tuple2(fPart, $author$project$Models$zeroPoints);
+			return assigmentResult.solutionConfirmed ? _Utils_Tuple2($author$project$Models$starAcquiredPoint, $author$project$Models$starAcquiredPoint) : _Utils_Tuple2($author$project$Models$starAcquiredPoint, $author$project$Models$zeroPoints);
 		}
 	}();
 	var bestPoints = _v0.a;
@@ -12088,9 +12048,11 @@ var $rundis$elm_bootstrap$Bootstrap$Grid$row = F2(
 			$rundis$elm_bootstrap$Bootstrap$Grid$Internal$rowAttributes(options),
 			A2($elm$core$List$map, $rundis$elm_bootstrap$Bootstrap$Grid$renderCol, cols));
 	});
+var $author$project$Models$fullPoint = $author$project$Models$halfPoint + $author$project$Models$halfPoint;
+var $author$project$Models$pointMultiplier = $author$project$Models$fullPoint;
 var $author$project$Models$showAssigmentPoint = function (_v0) {
 	var p = _v0.a;
-	return $elm$core$String$fromFloat(p / 8) + ' Točk';
+	return $elm$core$String$fromFloat(p / $author$project$Models$pointMultiplier) + ' Točk';
 };
 var $elm$core$List$sortBy = _List_sortBy;
 var $elm$html$Html$Attributes$target = $elm$html$Html$Attributes$stringProperty('target');
@@ -12117,7 +12079,7 @@ var $author$project$App$view = function (model) {
 							$elm$html$Html$a,
 							_List_fromArray(
 								[
-									$elm$html$Html$Attributes$href('https://adventofcode.com/2019/leaderboard/private/view/7040'),
+									$elm$html$Html$Attributes$href('https://adventofcode.com/2020/leaderboard/private/view/7040'),
 									$elm$html$Html$Attributes$target('_blank')
 								]),
 							_List_fromArray(
@@ -12257,4 +12219,4 @@ var $author$project$App$main = $elm$browser$Browser$element(
 		view: $author$project$App$view
 	});
 _Platform_export({'App':{'init':$author$project$App$main(
-	$elm$json$Json$Decode$succeed(_Utils_Tuple0))({"versions":{"elm":"0.19.1"},"types":{"message":"App.Msg","aliases":{"Models.AssigmentResult":{"args":[],"type":"{ language : Models.Language, solutionConfirmed : Basics.Bool, solved : Basics.Bool, solvedTime : Maybe.Maybe Basics.Int }"},"Models.DayResult":{"args":[],"type":"{ star1 : Maybe.Maybe Models.ScoredAssigmentResult, star2 : Maybe.Maybe Models.ScoredAssigmentResult, bestPoints : Models.AssigmentPoint, confirmedSolutionPoints : Models.AssigmentPoint, day : Basics.Int }"},"Models.ScoredAssigmentResult":{"args":[],"type":"{ assigmentResult : Models.AssigmentResult, bestPoints : Models.AssigmentPoint, confirmedSolutionPoints : Models.AssigmentPoint }"},"Models.User":{"args":[],"type":"{ name : String.String, surname : String.String, githubLink : Maybe.Maybe String.String, githubRepoLink : Maybe.Maybe String.String, aocId : Maybe.Maybe Basics.Int, bestPoints : Models.AssigmentPoint, confirmedSolutionPoints : Models.AssigmentPoint, dayResults : Dict.Dict Basics.Int Models.DayResult }"}},"unions":{"App.Msg":{"args":[],"tags":{"Refresh":[],"GotJson":["Result.Result Http.Error (List.List Models.User)"]}},"Models.AssigmentPoint":{"args":[],"tags":{"AssigmentPoint":["Basics.Int"]}},"Basics.Bool":{"args":[],"tags":{"True":[],"False":[]}},"Dict.Dict":{"args":["k","v"],"tags":{"RBNode_elm_builtin":["Dict.NColor","k","v","Dict.Dict k v","Dict.Dict k v"],"RBEmpty_elm_builtin":[]}},"Http.Error":{"args":[],"tags":{"BadUrl":["String.String"],"Timeout":[],"NetworkError":[],"BadStatus":["Basics.Int"],"BadBody":["String.String"]}},"Basics.Int":{"args":[],"tags":{"Int":[]}},"Models.Language":{"args":[],"tags":{"Unset":[],"Unknown":[],"Python":[],"OCaml":[],"Haskell":[]}},"List.List":{"args":["a"],"tags":{}},"Maybe.Maybe":{"args":["a"],"tags":{"Just":["a"],"Nothing":[]}},"Result.Result":{"args":["error","value"],"tags":{"Ok":["value"],"Err":["error"]}},"String.String":{"args":[],"tags":{"String":[]}},"Dict.NColor":{"args":[],"tags":{"Red":[],"Black":[]}}}}})}});}(this));
+	$elm$json$Json$Decode$succeed(_Utils_Tuple0))({"versions":{"elm":"0.19.1"},"types":{"message":"App.Msg","aliases":{"Models.AssigmentResult":{"args":[],"type":"{ solutionConfirmed : Basics.Bool, solved : Basics.Bool, solvedTime : Maybe.Maybe Basics.Int }"},"Models.DayResult":{"args":[],"type":"{ star1 : Maybe.Maybe Models.ScoredAssigmentResult, star2 : Maybe.Maybe Models.ScoredAssigmentResult, bestPoints : Models.AssigmentPoint, confirmedSolutionPoints : Models.AssigmentPoint, day : Basics.Int }"},"Models.ScoredAssigmentResult":{"args":[],"type":"{ assigmentResult : Models.AssigmentResult, bestPoints : Models.AssigmentPoint, confirmedSolutionPoints : Models.AssigmentPoint }"},"Models.User":{"args":[],"type":"{ name : String.String, surname : String.String, githubLink : Maybe.Maybe String.String, githubRepoLink : Maybe.Maybe String.String, aocId : Maybe.Maybe Basics.Int, bestPoints : Models.AssigmentPoint, confirmedSolutionPoints : Models.AssigmentPoint, dayResults : Dict.Dict Basics.Int Models.DayResult }"}},"unions":{"App.Msg":{"args":[],"tags":{"Refresh":[],"GotJson":["Result.Result Http.Error (List.List Models.User)"]}},"Models.AssigmentPoint":{"args":[],"tags":{"AssigmentPoint":["Basics.Int"]}},"Basics.Bool":{"args":[],"tags":{"True":[],"False":[]}},"Dict.Dict":{"args":["k","v"],"tags":{"RBNode_elm_builtin":["Dict.NColor","k","v","Dict.Dict k v","Dict.Dict k v"],"RBEmpty_elm_builtin":[]}},"Http.Error":{"args":[],"tags":{"BadUrl":["String.String"],"Timeout":[],"NetworkError":[],"BadStatus":["Basics.Int"],"BadBody":["String.String"]}},"Basics.Int":{"args":[],"tags":{"Int":[]}},"List.List":{"args":["a"],"tags":{}},"Maybe.Maybe":{"args":["a"],"tags":{"Just":["a"],"Nothing":[]}},"Result.Result":{"args":["error","value"],"tags":{"Ok":["value"],"Err":["error"]}},"String.String":{"args":[],"tags":{"String":[]}},"Dict.NColor":{"args":[],"tags":{"Red":[],"Black":[]}}}}})}});}(this));

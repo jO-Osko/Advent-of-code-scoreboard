@@ -1,4 +1,4 @@
-module Models exposing (AssigmentPoint, AssigmentResult, DayResult, IntermediateDayResult, Language(..), Model, ModelStatus(..), ScoredAssigmentResult, User, assigmentFromIntermediate, assigmentToInt, assigment_plus, functionalPoint, goldStartAcquiredPoint, initialModel, invalidPoints, isFunctional, normalPoint, score, scoreInfo, showAssigmentPoint, silverStartAcquiredPoint, zeroPoints)
+module Models exposing (AssigmentPoint, AssigmentResult, DayResult, IntermediateDayResult, Model, ModelStatus(..), ScoredAssigmentResult, User, assigmentFromIntermediate, assigmentToInt, assigment_plus, initialModel, invalidPoints, score, scoreInfo, showAssigmentPoint, zeroPoints)
 
 import DateTime exposing (DateTime)
 import Dict exposing (Dict)
@@ -6,6 +6,21 @@ import Dict exposing (Dict)
 
 
 -- 1/8 of exam point
+
+
+halfPoint : number
+halfPoint =
+    1
+
+
+fullPoint : number
+fullPoint =
+    halfPoint + halfPoint
+
+
+pointMultiplier : number
+pointMultiplier =
+    fullPoint
 
 
 type AssigmentPoint
@@ -22,29 +37,14 @@ zeroPoints =
     AssigmentPoint 0
 
 
-normalPoint : AssigmentPoint
-normalPoint =
-    AssigmentPoint 1
-
-
-functionalPoint : AssigmentPoint
-functionalPoint =
-    AssigmentPoint 2
-
-
-silverStartAcquiredPoint : AssigmentPoint
-silverStartAcquiredPoint =
-    AssigmentPoint 4
-
-
-goldStartAcquiredPoint : AssigmentPoint
-goldStartAcquiredPoint =
-    AssigmentPoint (8 + 4)
+starAcquiredPoint : AssigmentPoint
+starAcquiredPoint =
+    AssigmentPoint halfPoint
 
 
 showAssigmentPoint : AssigmentPoint -> String
 showAssigmentPoint (AssigmentPoint p) =
-    String.fromFloat (toFloat p / 8) ++ " Točk"
+    String.fromFloat (toFloat p / pointMultiplier) ++ " Točk"
 
 
 assigment_plus : AssigmentPoint -> AssigmentPoint -> AssigmentPoint
@@ -56,27 +56,6 @@ assigmentToInt (AssigmentPoint p) =
     p
 
 
-type Language
-    = Unset
-    | Unknown
-    | Python
-    | OCaml
-    | Haskell
-
-
-isFunctional : Language -> Bool
-isFunctional lang =
-    case lang of
-        OCaml ->
-            True
-
-        Haskell ->
-            True
-
-        _ ->
-            False
-
-
 score : AssigmentResult -> ScoredAssigmentResult
 score assigmentResult =
     let
@@ -86,19 +65,11 @@ score assigmentResult =
                     ( zeroPoints, zeroPoints )
 
                 True ->
-                    let
-                        fPart =
-                            if isFunctional assigmentResult.language then
-                                functionalPoint
-
-                            else
-                                normalPoint
-                    in
                     if assigmentResult.solutionConfirmed then
-                        ( fPart, fPart )
+                        ( starAcquiredPoint, starAcquiredPoint )
 
                     else
-                        ( fPart, zeroPoints )
+                        ( starAcquiredPoint, zeroPoints )
     in
     { assigmentResult = assigmentResult
     , bestPoints = bestPoints
@@ -107,37 +78,15 @@ score assigmentResult =
 
 
 type alias AssigmentResult =
-    { language : Language
-    , solutionConfirmed : Bool
+    { solutionConfirmed : Bool
     , solved : Bool
     , solvedTime : Maybe Int
     }
 
 
-languageFromString : Maybe String -> Language
-languageFromString str =
-    case str of
-        Nothing ->
-            Unset
-
-        Just s ->
-            case String.toLower s of
-                "ocaml" ->
-                    OCaml
-
-                "python" ->
-                    Python
-
-                "haskell" ->
-                    Haskell
-
-                _ ->
-                    Unknown
-
-
 assigmentFromIntermediate : IntermediateDayResult -> AssigmentResult
 assigmentFromIntermediate inter =
-    { language = languageFromString inter.language, solutionConfirmed = inter.solutionConfirmed, solved = inter.solved, solvedTime = inter.solvedTime }
+    { solutionConfirmed = inter.solutionConfirmed, solved = inter.solved, solvedTime = inter.solvedTime }
 
 
 scoreInfo : Maybe ScoredAssigmentResult -> Maybe ScoredAssigmentResult -> ( AssigmentPoint, AssigmentPoint )

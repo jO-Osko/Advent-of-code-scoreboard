@@ -199,7 +199,7 @@ view : Model -> Html Msg
 view model =
     Grid.container []
         ([ Html.h1 [] [ text "Sprotni rezultati točkovanj advent of code " ]
-         , Html.h3 [] [ a [ href "https://adventofcode.com/2019/leaderboard/private/view/7040", target "_blank" ] [ text "https://adventofcode.com/2019/leaderboard/private/view/7040" ] ]
+         , Html.h3 [] [ a [ href "https://adventofcode.com/2020/leaderboard/private/view/7040", target "_blank" ] [ text "https://adventofcode.com/2019/leaderboard/private/view/7040" ] ]
          , Grid.row [ Row.attrs [ class "font-weight-bold" ] ]
             [ Grid.col [] [ text "Ime" ]
             , Grid.col [] [ text "Github" ]
