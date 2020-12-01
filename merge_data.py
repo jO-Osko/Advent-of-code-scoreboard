@@ -132,14 +132,7 @@ open(BASE_FILE, "w").write(out_users)
 # Manjkajoči na scoreboardu:
 # https://github.com/golobluka/AdventOfCode Luka Golob
 # https://github.com/MTrdin/resevanje_advent_of_code Meta Trdin
-# https://github.com/LucjaFekonja/Advent_of_Code Lucija Fekonja
 # https://github.com/matejmelansek/AdventOfCode Matej Melanšek
-# https://git.sr.ht/~turminal/aoc2020 Bor Grošel Simić
-# https://github.com/timotejstibilj/AdventOfCode Timotej Stibilj
-# https://github.com/ivankobe/Advent_of_Code_2020 Ivan Kobe
-# https://github.com/Teodora-Cvetkovic/Advent-of-Code-2020 Teodora Cvetkovič
 # https://github.com/NinaKlem/PROG1-AoC Nina Klemenčič
 
 
-# Živjo
-# Super da ste se prijavili na Advent of Code, bi Vas pa prosil, da se dodate tudi private leaderboard, da bom lahko sproti spremljal točke. Koda za leaderboard je "7040-03ec17f3", pridružite pa se ji na strani https://adventofcode.com/2020/leaderboard/private. Seveda se morate prej vpisati, najlažje kar z google ali github računom. Se ne mudi, bi bilo pa lepo, da to storite v prihodnjih dneh.
