@@ -12090,7 +12090,7 @@ var $author$project$App$view = function (model) {
 								]),
 							_List_fromArray(
 								[
-									$elm$html$Html$text('https://adventofcode.com/2019/leaderboard/private/view/7040')
+									$elm$html$Html$text('https://adventofcode.com/2020/leaderboard/private/view/7040')
 								]))
 						])),
 					A2(
