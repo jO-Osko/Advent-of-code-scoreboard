@@ -42,9 +42,16 @@ starAcquiredPoint =
     AssigmentPoint halfPoint
 
 
+maxPoints =
+    10.0
+
+
 showAssigmentPoint : AssigmentPoint -> String
 showAssigmentPoint (AssigmentPoint p) =
-    String.fromFloat (toFloat p / pointMultiplier) ++ " Točk"
+    (min (toFloat p / pointMultiplier) maxPoints
+        |> String.fromFloat
+    )
+        ++ " Točk"
 
 
 assigment_plus : AssigmentPoint -> AssigmentPoint -> AssigmentPoint

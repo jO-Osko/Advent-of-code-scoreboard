@@ -12048,11 +12048,17 @@ var $rundis$elm_bootstrap$Bootstrap$Grid$row = F2(
 			$rundis$elm_bootstrap$Bootstrap$Grid$Internal$rowAttributes(options),
 			A2($elm$core$List$map, $rundis$elm_bootstrap$Bootstrap$Grid$renderCol, cols));
 	});
+var $author$project$Models$maxPoints = 10.0;
+var $elm$core$Basics$min = F2(
+	function (x, y) {
+		return (_Utils_cmp(x, y) < 0) ? x : y;
+	});
 var $author$project$Models$fullPoint = $author$project$Models$halfPoint + $author$project$Models$halfPoint;
 var $author$project$Models$pointMultiplier = $author$project$Models$fullPoint;
 var $author$project$Models$showAssigmentPoint = function (_v0) {
 	var p = _v0.a;
-	return $elm$core$String$fromFloat(p / $author$project$Models$pointMultiplier) + ' Točk';
+	return $elm$core$String$fromFloat(
+		A2($elm$core$Basics$min, p / $author$project$Models$pointMultiplier, $author$project$Models$maxPoints)) + ' Točk';
 };
 var $elm$core$List$sortBy = _List_sortBy;
 var $elm$html$Html$Attributes$target = $elm$html$Html$Attributes$stringProperty('target');
