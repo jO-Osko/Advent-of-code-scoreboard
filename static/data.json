@@ -6,7 +6,22 @@
         "github_repo_link": "",
         "aoc_id": 984284,
         "aoc_name": "Martin Radman",
-        "solution_data": {}
+        "solution_data": {
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606858966
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606866451
+                }
+            }
+        }
     },
     {
         "name": "Kristina",
@@ -52,6 +67,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1606832679
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606920570
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": false,
+                    "solved_time": null
                 }
             }
         }
@@ -110,6 +139,20 @@
                     "solved": true,
                     "solved_time": 1606802082
                 }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606885557
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606885632
+                }
             }
         }
     },
@@ -158,6 +201,20 @@
                     "solved": true,
                     "solved_time": 1606801986
                 }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606893571
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606895002
+                }
             }
         }
     },
@@ -181,6 +238,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1606828882
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606913865
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606914512
                 }
             }
         }
@@ -206,6 +277,20 @@
                     "solved": true,
                     "solved_time": 1606842616
                 }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606910054
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606910889
+                }
             }
         }
     },
@@ -229,6 +314,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1606835752
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606905594
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606907095
                 }
             }
         }
@@ -302,6 +401,20 @@
                     "solved": true,
                     "solved_time": 1606830359
                 }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606913192
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606914097
+                }
             }
         }
     },
@@ -334,6 +447,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1606833141
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606910498
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606911557
                 }
             }
         }
@@ -368,6 +495,20 @@
                     "solved": true,
                     "solved_time": 1606835992
                 }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606905461
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606905745
+                }
             }
         }
     },
@@ -387,7 +528,36 @@
         "github_repo_link": "",
         "aoc_id": 969325,
         "aoc_name": "Urh Primo\u017ei\u010d",
-        "solution_data": {}
+        "solution_data": {
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606911198
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606911706
+                }
+            },
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606857237
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606858214
+                }
+            }
+        }
     },
     {
         "name": "Manca",
@@ -410,6 +580,20 @@
                     "solved": true,
                     "solved_time": 1606830946
                 }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606912621
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606913560
+                }
             }
         }
     },
@@ -420,7 +604,22 @@
         "github_repo_link": "",
         "aoc_id": 975969,
         "aoc_name": "gajajamnik",
-        "solution_data": {}
+        "solution_data": {
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606917174
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606919564
+                }
+            }
+        }
     },
     {
         "name": "\u010cade\u017e",
@@ -442,6 +641,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1606844682
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606898428
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606900149
                 }
             }
         }
@@ -467,6 +680,20 @@
                     "solved": true,
                     "solved_time": 1606841191
                 }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606915357
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606921611
+                }
             }
         }
     },
@@ -490,6 +717,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1606813417
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606896276
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606897403
                 }
             }
         }
@@ -525,7 +766,22 @@
         "github_repo_link": "",
         "aoc_id": 973977,
         "aoc_name": "Ana Marija Belingar",
-        "solution_data": {}
+        "solution_data": {
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606858093
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606861902
+                }
+            }
+        }
     },
     {
         "name": "Tim",
@@ -572,6 +828,20 @@
                     "solved": true,
                     "solved_time": 1606818392
                 }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606892832
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606899054
+                }
             }
         }
     },
@@ -602,8 +872,8 @@
                 "2": {
                     "language": null,
                     "solution_confirmed": false,
-                    "solved": false,
-                    "solved_time": null
+                    "solved": true,
+                    "solved_time": 1606858122
                 }
             }
         }
@@ -615,7 +885,36 @@
         "github_repo_link": "",
         "aoc_id": 1004453,
         "aoc_name": "Tadej Glin\u0161ek",
-        "solution_data": {}
+        "solution_data": {
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606901726
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606902856
+                }
+            },
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606859306
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606859460
+                }
+            }
+        }
     },
     {
         "name": "Lucija",
@@ -633,7 +932,22 @@
         "github_repo_link": "",
         "aoc_id": 143532,
         "aoc_name": "Bor Gro\u0161elj Simi\u0107",
-        "solution_data": {}
+        "solution_data": {
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606867854
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606875396
+                }
+            }
+        }
     },
     {
         "name": "Dejan",
@@ -697,6 +1011,82 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1606854934
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606905908
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606910698
+                }
+            }
+        }
+    },
+    {
+        "name": "Mihael",
+        "surname": "Ber\u010di\u010d",
+        "github_link": "",
+        "github_repo_link": "",
+        "aoc_id": 99706,
+        "aoc_name": "Mihael",
+        "solution_data": {
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606820344
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606820406
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606912826
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606913184
+                }
+            }
+        }
+    },
+    {
+        "name": "Luka",
+        "surname": "Golob",
+        "github_link": "https://github.com/golobluka/AdventOfCode",
+        "github_repo_link": "",
+        "aoc_id": 980903,
+        "aoc_name": "golobluka",
+        "solution_data": {
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606851106
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606854823
                 }
             }
         }
