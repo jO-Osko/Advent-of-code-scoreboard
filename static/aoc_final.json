@@ -1,66 +1,60 @@
 {
-  "event": "2020",
+  "owner_id": "7040",
   "members": {
-    "975969": {
-      "local_score": 0,
-      "id": "975969",
-      "stars": 2,
+    "979367": {
       "global_score": 0,
       "completion_day_level": {
-        "1": {
-          "2": {
-            "get_star_ts": "1606919564"
-          },
+        "2": {
           "1": {
-            "get_star_ts": "1606917174"
+            "get_star_ts": "1606905461"
+          },
+          "2": {
+            "get_star_ts": "1606905745"
+          }
+        },
+        "1": {
+          "1": {
+            "get_star_ts": "1606835655"
+          },
+          "2": {
+            "get_star_ts": "1606835992"
           }
         }
       },
-      "last_star_ts": "1606919564",
-      "name": "gajajamnik"
-    },
-    "964826": {
-      "local_score": 0,
-      "id": "964826",
-      "stars": 0,
-      "global_score": 0,
-      "completion_day_level": {},
-      "name": "anajulijapreseren",
-      "last_star_ts": 0
-    },
-    "99706": {
-      "global_score": 0,
       "stars": 4,
-      "id": "99706",
-      "local_score": 55,
-      "name": "Mihael",
-      "last_star_ts": "1606913184",
+      "id": "979367",
+      "name": "Jure Smolar",
+      "last_star_ts": "1606905745",
+      "local_score": 68
+    },
+    "963164": {
+      "id": "963164",
+      "last_star_ts": "1606900149",
+      "name": "CadezDavid",
+      "local_score": 72,
+      "global_score": 0,
       "completion_day_level": {
-        "1": {
-          "1": {
-            "get_star_ts": "1606820344"
-          },
-          "2": {
-            "get_star_ts": "1606820406"
-          }
-        },
         "2": {
           "2": {
-            "get_star_ts": "1606913184"
+            "get_star_ts": "1606900149"
           },
           "1": {
-            "get_star_ts": "1606912826"
+            "get_star_ts": "1606898428"
+          }
+        },
+        "1": {
+          "1": {
+            "get_star_ts": "1606830691"
+          },
+          "2": {
+            "get_star_ts": "1606844682"
           }
         }
-      }
+      },
+      "stars": 4
     },
     "980903": {
       "global_score": 0,
-      "stars": 2,
-      "id": "980903",
-      "local_score": 0,
-      "name": "golobluka",
-      "last_star_ts": "1606854823",
       "completion_day_level": {
         "1": {
           "2": {
@@ -70,94 +64,101 @@
             "get_star_ts": "1606851106"
           }
         }
-      }
-    },
-    "970205": {
-      "id": "970205",
-      "local_score": 77,
-      "global_score": 0,
-      "stars": 4,
-      "last_star_ts": "1606895002",
-      "name": "matejbolta",
-      "completion_day_level": {
-        "2": {
-          "2": {
-            "get_star_ts": "1606895002"
-          },
-          "1": {
-            "get_star_ts": "1606893571"
-          }
-        },
-        "1": {
-          "1": {
-            "get_star_ts": "1606801036"
-          },
-          "2": {
-            "get_star_ts": "1606801986"
-          }
-        }
-      }
-    },
-    "1050800": {
-      "last_star_ts": 0,
-      "name": "taja pezdir",
-      "completion_day_level": {},
-      "global_score": 0,
-      "stars": 0,
-      "id": "1050800",
+      },
+      "stars": 2,
+      "id": "980903",
+      "last_star_ts": "1606854823",
+      "name": "golobluka",
       "local_score": 0
     },
-    "973977": {
-      "last_star_ts": "1606861902",
-      "name": "Ana Marija Belingar",
+    "1050800": {
+      "local_score": 0,
+      "name": "taja pezdir",
+      "last_star_ts": 0,
+      "id": "1050800",
+      "stars": 0,
+      "completion_day_level": {},
+      "global_score": 0
+    },
+    "976166": {
+      "stars": 1,
       "completion_day_level": {
         "1": {
-          "2": {
-            "get_star_ts": "1606861902"
-          },
           "1": {
-            "get_star_ts": "1606858093"
+            "get_star_ts": "1606844061"
           }
         }
       },
-      "id": "973977",
+      "global_score": 0,
       "local_score": 0,
-      "global_score": 0,
-      "stars": 2
+      "name": "Vatovec123",
+      "last_star_ts": "1606844061",
+      "id": "976166"
     },
-    "632862": {
-      "global_score": 0,
-      "stars": 4,
-      "id": "632862",
-      "local_score": 80,
-      "last_star_ts": "1606885632",
-      "name": "grekiki",
+    "955075": {
+      "last_star_ts": "1606858122",
+      "name": "Teodora-Cvetkovic",
+      "id": "955075",
+      "local_score": 0,
       "completion_day_level": {
         "1": {
           "2": {
-            "get_star_ts": "1606802082"
+            "get_star_ts": "1606858122"
           },
           "1": {
-            "get_star_ts": "1606802037"
+            "get_star_ts": "1606835496"
+          }
+        }
+      },
+      "global_score": 0,
+      "stars": 2
+    },
+    "973694": {
+      "global_score": 0,
+      "completion_day_level": {
+        "1": {
+          "2": {
+            "get_star_ts": "1606843080"
+          },
+          "1": {
+            "get_star_ts": "1606837017"
+          }
+        }
+      },
+      "stars": 2,
+      "id": "973694",
+      "last_star_ts": "1606843080",
+      "name": "Tim Kalan",
+      "local_score": 0
+    },
+    "974630": {
+      "local_score": 42,
+      "name": "mitja",
+      "last_star_ts": "1606936983",
+      "id": "974630",
+      "stars": 4,
+      "completion_day_level": {
+        "1": {
+          "2": {
+            "get_star_ts": "1606852162"
+          },
+          "1": {
+            "get_star_ts": "1606820846"
           }
         },
         "2": {
-          "2": {
-            "get_star_ts": "1606885632"
-          },
           "1": {
-            "get_star_ts": "1606885557"
+            "get_star_ts": "1606931973"
+          },
+          "2": {
+            "get_star_ts": "1606936983"
           }
         }
-      }
+      },
+      "global_score": 0
     },
     "972380": {
-      "id": "972380",
-      "local_score": 60,
       "global_score": 0,
-      "stars": 4,
-      "last_star_ts": "1606911557",
-      "name": "Babnik21",
       "completion_day_level": {
         "2": {
           "1": {
@@ -168,32 +169,401 @@
           }
         },
         "1": {
-          "2": {
-            "get_star_ts": "1606833141"
-          },
           "1": {
             "get_star_ts": "1606828999"
+          },
+          "2": {
+            "get_star_ts": "1606833141"
+          }
+        }
+      },
+      "stars": 4,
+      "id": "972380",
+      "last_star_ts": "1606911557",
+      "name": "Babnik21",
+      "local_score": 60
+    },
+    "978299": {
+      "stars": 1,
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1606843069"
+          }
+        }
+      },
+      "global_score": 0,
+      "local_score": 0,
+      "last_star_ts": "1606843069",
+      "name": "kumpilumpi",
+      "id": "978299"
+    },
+    "965479": {
+      "stars": 4,
+      "global_score": 0,
+      "completion_day_level": {
+        "2": {
+          "2": {
+            "get_star_ts": "1606899054"
+          },
+          "1": {
+            "get_star_ts": "1606892832"
+          }
+        },
+        "1": {
+          "1": {
+            "get_star_ts": "1606817263"
+          },
+          "2": {
+            "get_star_ts": "1606818392"
+          }
+        }
+      },
+      "local_score": 76,
+      "id": "965479",
+      "last_star_ts": "1606899054",
+      "name": "ivankobe"
+    },
+    "975455": {
+      "completion_day_level": {
+        "2": {
+          "1": {
+            "get_star_ts": "1606915357"
+          },
+          "2": {
+            "get_star_ts": "1606921611"
+          }
+        },
+        "1": {
+          "2": {
+            "get_star_ts": "1606841191"
+          },
+          "1": {
+            "get_star_ts": "1606828787"
+          }
+        }
+      },
+      "global_score": 0,
+      "stars": 4,
+      "last_star_ts": "1606921611",
+      "name": "zalastopar",
+      "id": "975455",
+      "local_score": 48
+    },
+    "964826": {
+      "last_star_ts": 0,
+      "name": "anajulijapreseren",
+      "id": "964826",
+      "local_score": 0,
+      "completion_day_level": {},
+      "global_score": 0,
+      "stars": 0
+    },
+    "632862": {
+      "completion_day_level": {
+        "1": {
+          "2": {
+            "get_star_ts": "1606802082"
+          },
+          "1": {
+            "get_star_ts": "1606802037"
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "1606885557"
+          },
+          "2": {
+            "get_star_ts": "1606885632"
+          }
+        }
+      },
+      "global_score": 0,
+      "stars": 4,
+      "last_star_ts": "1606885632",
+      "name": "grekiki",
+      "id": "632862",
+      "local_score": 80
+    },
+    "984284": {
+      "global_score": 0,
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1606858966"
+          },
+          "2": {
+            "get_star_ts": "1606866451"
+          }
+        }
+      },
+      "stars": 2,
+      "id": "984284",
+      "last_star_ts": "1606866451",
+      "name": "Martin Radman",
+      "local_score": 0
+    },
+    "1004453": {
+      "name": "Tadej Glinšek",
+      "last_star_ts": "1606902856",
+      "id": "1004453",
+      "local_score": 70,
+      "completion_day_level": {
+        "1": {
+          "2": {
+            "get_star_ts": "1606859460"
+          },
+          "1": {
+            "get_star_ts": "1606859306"
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "1606901726"
+          },
+          "2": {
+            "get_star_ts": "1606902856"
+          }
+        }
+      },
+      "global_score": 0,
+      "stars": 4
+    },
+    "1033196": {
+      "name": "FilipBezjak",
+      "last_star_ts": "1606910698",
+      "id": "1033196",
+      "local_score": 64,
+      "completion_day_level": {
+        "2": {
+          "1": {
+            "get_star_ts": "1606905908"
+          },
+          "2": {
+            "get_star_ts": "1606910698"
+          }
+        },
+        "1": {
+          "2": {
+            "get_star_ts": "1606854934"
+          },
+          "1": {
+            "get_star_ts": "1606851867"
+          }
+        }
+      },
+      "global_score": 0,
+      "stars": 4
+    },
+    "984288": {
+      "local_score": 0,
+      "id": "984288",
+      "last_star_ts": "1606854184",
+      "name": "katjakranjec",
+      "stars": 2,
+      "global_score": 0,
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1606853277"
+          },
+          "2": {
+            "get_star_ts": "1606854184"
           }
         }
       }
     },
-    "984284": {
-      "id": "984284",
-      "local_score": 0,
-      "global_score": 0,
-      "stars": 2,
-      "last_star_ts": "1606866451",
-      "name": "Martin Radman",
+    "970205": {
+      "local_score": 77,
+      "name": "matejbolta",
+      "last_star_ts": "1606895002",
+      "id": "970205",
+      "stars": 4,
       "completion_day_level": {
         "1": {
           "2": {
-            "get_star_ts": "1606866451"
+            "get_star_ts": "1606801986"
           },
           "1": {
-            "get_star_ts": "1606858966"
+            "get_star_ts": "1606801036"
+          }
+        },
+        "2": {
+          "1": {
+            "get_star_ts": "1606893571"
+          },
+          "2": {
+            "get_star_ts": "1606895002"
           }
         }
-      }
+      },
+      "global_score": 0
+    },
+    "987025": {
+      "last_star_ts": "1606838852",
+      "name": "lueticana",
+      "id": "987025",
+      "local_score": 0,
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1606838416"
+          },
+          "2": {
+            "get_star_ts": "1606838852"
+          }
+        }
+      },
+      "global_score": 0,
+      "stars": 2
+    },
+    "7040": {
+      "id": "7040",
+      "last_star_ts": "1606897403",
+      "name": "jO-Osko",
+      "local_score": 75,
+      "global_score": 0,
+      "completion_day_level": {
+        "2": {
+          "1": {
+            "get_star_ts": "1606896276"
+          },
+          "2": {
+            "get_star_ts": "1606897403"
+          }
+        },
+        "1": {
+          "2": {
+            "get_star_ts": "1606813417"
+          },
+          "1": {
+            "get_star_ts": "1606810317"
+          }
+        }
+      },
+      "stars": 4
+    },
+    "970406": {
+      "stars": 0,
+      "global_score": 0,
+      "completion_day_level": {},
+      "local_score": 0,
+      "id": "970406",
+      "name": "alanmarinic",
+      "last_star_ts": 0
+    },
+    "973977": {
+      "name": "Ana Marija Belingar",
+      "last_star_ts": "1606933071",
+      "id": "973977",
+      "local_score": 43,
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1606858093"
+          },
+          "2": {
+            "get_star_ts": "1606861902"
+          }
+        },
+        "2": {
+          "2": {
+            "get_star_ts": "1606933071"
+          },
+          "1": {
+            "get_star_ts": "1606932096"
+          }
+        }
+      },
+      "global_score": 0,
+      "stars": 4
+    },
+    "149792": {
+      "global_score": 0,
+      "completion_day_level": {
+        "2": {
+          "1": {
+            "get_star_ts": "1606913192"
+          },
+          "2": {
+            "get_star_ts": "1606914097"
+          }
+        },
+        "1": {
+          "1": {
+            "get_star_ts": "1606827254"
+          },
+          "2": {
+            "get_star_ts": "1606830359"
+          }
+        }
+      },
+      "stars": 4,
+      "id": "149792",
+      "last_star_ts": "1606914097",
+      "name": "Jon Mikoš",
+      "local_score": 52
+    },
+    "964205": {
+      "stars": 4,
+      "completion_day_level": {
+        "1": {
+          "2": {
+            "get_star_ts": "1606832679"
+          },
+          "1": {
+            "get_star_ts": "1606831071"
+          }
+        },
+        "2": {
+          "2": {
+            "get_star_ts": "1606923024"
+          },
+          "1": {
+            "get_star_ts": "1606920570"
+          }
+        }
+      },
+      "global_score": 0,
+      "local_score": 46,
+      "name": "benoucakar",
+      "last_star_ts": "1606923024",
+      "id": "964205"
+    },
+    "975970": {
+      "last_star_ts": 0,
+      "name": "Domengradisek",
+      "id": "975970",
+      "local_score": 0,
+      "completion_day_level": {},
+      "global_score": 0,
+      "stars": 0
+    },
+    "415405": {
+      "id": "415405",
+      "name": "maticzav",
+      "last_star_ts": "1606914512",
+      "local_score": 50,
+      "global_score": 0,
+      "completion_day_level": {
+        "1": {
+          "2": {
+            "get_star_ts": "1606828882"
+          },
+          "1": {
+            "get_star_ts": "1606828123"
+          }
+        },
+        "2": {
+          "2": {
+            "get_star_ts": "1606914512"
+          },
+          "1": {
+            "get_star_ts": "1606913865"
+          }
+        }
+      },
+      "stars": 4
     },
     "1053084": {
       "completion_day_level": {
@@ -206,228 +576,204 @@
           }
         }
       },
+      "global_score": 0,
+      "stars": 2,
       "name": "Timon Najdovski",
       "last_star_ts": "1606855414",
-      "local_score": 0,
       "id": "1053084",
-      "stars": 2,
-      "global_score": 0
+      "local_score": 0
     },
-    "1033196": {
-      "id": "1033196",
-      "local_score": 64,
-      "global_score": 0,
+    "99706": {
       "stars": 4,
-      "name": "FilipBezjak",
-      "last_star_ts": "1606910698",
       "completion_day_level": {
-        "1": {
-          "1": {
-            "get_star_ts": "1606851867"
-          },
-          "2": {
-            "get_star_ts": "1606854934"
-          }
-        },
-        "2": {
-          "1": {
-            "get_star_ts": "1606905908"
-          },
-          "2": {
-            "get_star_ts": "1606910698"
-          }
-        }
-      }
-    },
-    "975455": {
-      "last_star_ts": "1606921611",
-      "name": "zalastopar",
-      "completion_day_level": {
-        "1": {
-          "2": {
-            "get_star_ts": "1606841191"
-          },
-          "1": {
-            "get_star_ts": "1606828787"
-          }
-        },
         "2": {
           "2": {
-            "get_star_ts": "1606921611"
+            "get_star_ts": "1606913184"
           },
           "1": {
-            "get_star_ts": "1606915357"
+            "get_star_ts": "1606912826"
+          }
+        },
+        "1": {
+          "1": {
+            "get_star_ts": "1606820344"
+          },
+          "2": {
+            "get_star_ts": "1606820406"
           }
         }
       },
       "global_score": 0,
-      "stars": 4,
-      "id": "975455",
-      "local_score": 48
-    },
-    "149792": {
-      "last_star_ts": "1606914097",
-      "name": "Jon Mikoš",
-      "completion_day_level": {
-        "1": {
-          "1": {
-            "get_star_ts": "1606827254"
-          },
-          "2": {
-            "get_star_ts": "1606830359"
-          }
-        },
-        "2": {
-          "2": {
-            "get_star_ts": "1606914097"
-          },
-          "1": {
-            "get_star_ts": "1606913192"
-          }
-        }
-      },
-      "global_score": 0,
-      "stars": 4,
-      "id": "149792",
-      "local_score": 52
+      "local_score": 55,
+      "last_star_ts": "1606913184",
+      "name": "Mihael",
+      "id": "99706"
     },
     "963915": {
+      "name": "Tadej Mohorčič",
+      "last_star_ts": "1606934656",
+      "id": "963915",
+      "local_score": 41,
       "completion_day_level": {
         "1": {
-          "2": {
-            "get_star_ts": "1606848807"
-          },
           "1": {
             "get_star_ts": "1606846906"
-          }
-        }
-      },
-      "last_star_ts": "1606848807",
-      "name": "Tadej Mohorčič",
-      "local_score": 0,
-      "id": "963915",
-      "stars": 2,
-      "global_score": 0
-    },
-    "984532": {
-      "local_score": 0,
-      "id": "984532",
-      "stars": 0,
-      "global_score": 0,
-      "completion_day_level": {},
-      "name": "Gašper Petrovič",
-      "last_star_ts": 0
-    },
-    "964205": {
-      "completion_day_level": {
-        "1": {
-          "2": {
-            "get_star_ts": "1606832679"
           },
-          "1": {
-            "get_star_ts": "1606831071"
+          "2": {
+            "get_star_ts": "1606848807"
           }
         },
         "2": {
+          "2": {
+            "get_star_ts": "1606934656"
+          },
           "1": {
-            "get_star_ts": "1606920570"
+            "get_star_ts": "1606932652"
           }
         }
       },
-      "name": "benoucakar",
-      "last_star_ts": "1606920570",
-      "local_score": 23,
-      "id": "964205",
-      "stars": 3,
-      "global_score": 0
-    },
-    "970406": {
-      "completion_day_level": {},
-      "name": "alanmarinic",
-      "last_star_ts": 0,
-      "stars": 0,
-      "global_score": 0,
-      "local_score": 0,
-      "id": "970406"
-    },
-    "979120": {
-      "local_score": 0,
-      "id": "979120",
-      "stars": 0,
-      "global_score": 0,
-      "completion_day_level": {},
-      "name": "Timotej Stibilj",
-      "last_star_ts": 0
-    },
-    "415405": {
-      "last_star_ts": "1606914512",
-      "name": "maticzav",
-      "completion_day_level": {
-        "1": {
-          "1": {
-            "get_star_ts": "1606828123"
-          },
-          "2": {
-            "get_star_ts": "1606828882"
-          }
-        },
-        "2": {
-          "1": {
-            "get_star_ts": "1606913865"
-          },
-          "2": {
-            "get_star_ts": "1606914512"
-          }
-        }
-      },
-      "id": "415405",
-      "local_score": 50,
       "global_score": 0,
       "stars": 4
     },
-    "973694": {
+    "1004016": {
+      "last_star_ts": 0,
+      "name": "Dejan Perić",
+      "id": "1004016",
       "local_score": 0,
-      "id": "973694",
-      "stars": 2,
+      "completion_day_level": {},
+      "global_score": 0,
+      "stars": 0
+    },
+    "514827": {
       "global_score": 0,
       "completion_day_level": {
+        "2": {
+          "1": {
+            "get_star_ts": "1606910054"
+          },
+          "2": {
+            "get_star_ts": "1606910889"
+          }
+        },
         "1": {
           "2": {
-            "get_star_ts": "1606843080"
+            "get_star_ts": "1606842616"
           },
           "1": {
-            "get_star_ts": "1606837017"
+            "get_star_ts": "1606836444"
           }
         }
       },
-      "name": "Tim Kalan",
-      "last_star_ts": "1606843080"
+      "stars": 4,
+      "id": "514827",
+      "name": "Matevž Miščič",
+      "last_star_ts": "1606910889",
+      "local_score": 62
     },
-    "987025": {
-      "stars": 2,
-      "global_score": 0,
-      "local_score": 0,
-      "id": "987025",
+    "975969": {
       "completion_day_level": {
         "1": {
           "1": {
-            "get_star_ts": "1606838416"
+            "get_star_ts": "1606917174"
           },
           "2": {
-            "get_star_ts": "1606838852"
+            "get_star_ts": "1606919564"
           }
         }
       },
-      "name": "lueticana",
-      "last_star_ts": "1606838852"
+      "global_score": 0,
+      "stars": 2,
+      "last_star_ts": "1606919564",
+      "name": "gajajamnik",
+      "id": "975969",
+      "local_score": 0
     },
-    "969325": {
+    "143532": {
+      "stars": 2,
+      "completion_day_level": {
+        "1": {
+          "2": {
+            "get_star_ts": "1606875396"
+          },
+          "1": {
+            "get_star_ts": "1606867854"
+          }
+        }
+      },
+      "global_score": 0,
+      "local_score": 0,
+      "name": "Bor Grošelj Simić",
+      "last_star_ts": "1606875396",
+      "id": "143532"
+    },
+    "954792": {
+      "global_score": 0,
+      "completion_day_level": {},
+      "stars": 0,
+      "id": "954792",
+      "last_star_ts": 0,
+      "name": "Lucija Fekonja",
+      "local_score": 0
+    },
+    "981742": {
+      "completion_day_level": {
+        "2": {
+          "1": {
+            "get_star_ts": "1606905594"
+          },
+          "2": {
+            "get_star_ts": "1606907095"
+          }
+        },
+        "1": {
+          "2": {
+            "get_star_ts": "1606835752"
+          },
+          "1": {
+            "get_star_ts": "1606827161"
+          }
+        }
+      },
       "global_score": 0,
       "stars": 4,
-      "id": "969325",
+      "name": "lukasimcic",
+      "last_star_ts": "1606907095",
+      "id": "981742",
+      "local_score": 66
+    },
+    "970197": {
+      "local_score": 55,
+      "last_star_ts": "1606913560",
+      "name": "Manca Strah",
+      "id": "970197",
+      "stars": 4,
+      "completion_day_level": {
+        "2": {
+          "2": {
+            "get_star_ts": "1606913560"
+          },
+          "1": {
+            "get_star_ts": "1606912621"
+          }
+        },
+        "1": {
+          "1": {
+            "get_star_ts": "1606829919"
+          },
+          "2": {
+            "get_star_ts": "1606830946"
+          }
+        }
+      },
+      "global_score": 0
+    },
+    "969325": {
       "local_score": 58,
+      "id": "969325",
       "name": "Urh Primožič",
       "last_star_ts": "1606911706",
+      "stars": 4,
+      "global_score": 0,
       "completion_day_level": {
         "2": {
           "2": {
@@ -447,343 +793,39 @@
         }
       }
     },
-    "978299": {
-      "id": "978299",
+    "979120": {
+      "last_star_ts": "1606930031",
+      "name": "Timotej Stibilj",
+      "id": "979120",
       "local_score": 0,
+      "completion_day_level": {
+        "1": {
+          "1": {
+            "get_star_ts": "1606926475"
+          },
+          "2": {
+            "get_star_ts": "1606930031"
+          }
+        }
+      },
       "global_score": 0,
+      "stars": 2
+    },
+    "984532": {
+      "local_score": 0,
+      "name": "Gašper Petrovič",
+      "last_star_ts": "1606937475",
+      "id": "984532",
       "stars": 1,
-      "name": "kumpilumpi",
-      "last_star_ts": "1606843069",
       "completion_day_level": {
         "1": {
           "1": {
-            "get_star_ts": "1606843069"
-          }
-        }
-      }
-    },
-    "955075": {
-      "name": "Teodora-Cvetkovic",
-      "last_star_ts": "1606858122",
-      "completion_day_level": {
-        "1": {
-          "2": {
-            "get_star_ts": "1606858122"
-          },
-          "1": {
-            "get_star_ts": "1606835496"
+            "get_star_ts": "1606937475"
           }
         }
       },
-      "global_score": 0,
-      "stars": 2,
-      "id": "955075",
-      "local_score": 0
-    },
-    "954792": {
-      "local_score": 0,
-      "id": "954792",
-      "stars": 0,
-      "global_score": 0,
-      "completion_day_level": {},
-      "last_star_ts": 0,
-      "name": "Lucija Fekonja"
-    },
-    "7040": {
-      "completion_day_level": {
-        "1": {
-          "1": {
-            "get_star_ts": "1606810317"
-          },
-          "2": {
-            "get_star_ts": "1606813417"
-          }
-        },
-        "2": {
-          "2": {
-            "get_star_ts": "1606897403"
-          },
-          "1": {
-            "get_star_ts": "1606896276"
-          }
-        }
-      },
-      "name": "jO-Osko",
-      "last_star_ts": "1606897403",
-      "stars": 4,
-      "global_score": 0,
-      "local_score": 75,
-      "id": "7040"
-    },
-    "970197": {
-      "name": "Manca Strah",
-      "last_star_ts": "1606913560",
-      "completion_day_level": {
-        "2": {
-          "1": {
-            "get_star_ts": "1606912621"
-          },
-          "2": {
-            "get_star_ts": "1606913560"
-          }
-        },
-        "1": {
-          "2": {
-            "get_star_ts": "1606830946"
-          },
-          "1": {
-            "get_star_ts": "1606829919"
-          }
-        }
-      },
-      "global_score": 0,
-      "stars": 4,
-      "id": "970197",
-      "local_score": 55
-    },
-    "514827": {
-      "completion_day_level": {
-        "1": {
-          "2": {
-            "get_star_ts": "1606842616"
-          },
-          "1": {
-            "get_star_ts": "1606836444"
-          }
-        },
-        "2": {
-          "1": {
-            "get_star_ts": "1606910054"
-          },
-          "2": {
-            "get_star_ts": "1606910889"
-          }
-        }
-      },
-      "name": "Matevž Miščič",
-      "last_star_ts": "1606910889",
-      "stars": 4,
-      "global_score": 0,
-      "local_score": 62,
-      "id": "514827"
-    },
-    "975970": {
-      "completion_day_level": {},
-      "name": "Domengradisek",
-      "last_star_ts": 0,
-      "stars": 0,
-      "global_score": 0,
-      "local_score": 0,
-      "id": "975970"
-    },
-    "143532": {
-      "local_score": 0,
-      "id": "143532",
-      "stars": 2,
-      "global_score": 0,
-      "completion_day_level": {
-        "1": {
-          "2": {
-            "get_star_ts": "1606875396"
-          },
-          "1": {
-            "get_star_ts": "1606867854"
-          }
-        }
-      },
-      "last_star_ts": "1606875396",
-      "name": "Bor Grošelj Simić"
-    },
-    "976166": {
-      "last_star_ts": "1606844061",
-      "name": "Vatovec123",
-      "completion_day_level": {
-        "1": {
-          "1": {
-            "get_star_ts": "1606844061"
-          }
-        }
-      },
-      "id": "976166",
-      "local_score": 0,
-      "global_score": 0,
-      "stars": 1
-    },
-    "1004453": {
-      "local_score": 70,
-      "id": "1004453",
-      "stars": 4,
-      "global_score": 0,
-      "completion_day_level": {
-        "2": {
-          "2": {
-            "get_star_ts": "1606902856"
-          },
-          "1": {
-            "get_star_ts": "1606901726"
-          }
-        },
-        "1": {
-          "2": {
-            "get_star_ts": "1606859460"
-          },
-          "1": {
-            "get_star_ts": "1606859306"
-          }
-        }
-      },
-      "last_star_ts": "1606902856",
-      "name": "Tadej Glinšek"
-    },
-    "1004016": {
-      "last_star_ts": 0,
-      "name": "Dejan Perić",
-      "completion_day_level": {},
-      "global_score": 0,
-      "stars": 0,
-      "id": "1004016",
-      "local_score": 0
-    },
-    "965479": {
-      "local_score": 76,
-      "id": "965479",
-      "stars": 4,
-      "global_score": 0,
-      "completion_day_level": {
-        "1": {
-          "1": {
-            "get_star_ts": "1606817263"
-          },
-          "2": {
-            "get_star_ts": "1606818392"
-          }
-        },
-        "2": {
-          "2": {
-            "get_star_ts": "1606899054"
-          },
-          "1": {
-            "get_star_ts": "1606892832"
-          }
-        }
-      },
-      "last_star_ts": "1606899054",
-      "name": "ivankobe"
-    },
-    "979367": {
-      "global_score": 0,
-      "stars": 4,
-      "id": "979367",
-      "local_score": 68,
-      "name": "Jure Smolar",
-      "last_star_ts": "1606905745",
-      "completion_day_level": {
-        "2": {
-          "2": {
-            "get_star_ts": "1606905745"
-          },
-          "1": {
-            "get_star_ts": "1606905461"
-          }
-        },
-        "1": {
-          "1": {
-            "get_star_ts": "1606835655"
-          },
-          "2": {
-            "get_star_ts": "1606835992"
-          }
-        }
-      }
-    },
-    "963164": {
-      "name": "CadezDavid",
-      "last_star_ts": "1606900149",
-      "completion_day_level": {
-        "1": {
-          "2": {
-            "get_star_ts": "1606844682"
-          },
-          "1": {
-            "get_star_ts": "1606830691"
-          }
-        },
-        "2": {
-          "2": {
-            "get_star_ts": "1606900149"
-          },
-          "1": {
-            "get_star_ts": "1606898428"
-          }
-        }
-      },
-      "id": "963164",
-      "local_score": 72,
-      "global_score": 0,
-      "stars": 4
-    },
-    "984288": {
-      "global_score": 0,
-      "stars": 2,
-      "id": "984288",
-      "local_score": 0,
-      "name": "katjakranjec",
-      "last_star_ts": "1606854184",
-      "completion_day_level": {
-        "1": {
-          "1": {
-            "get_star_ts": "1606853277"
-          },
-          "2": {
-            "get_star_ts": "1606854184"
-          }
-        }
-      }
-    },
-    "981742": {
-      "completion_day_level": {
-        "2": {
-          "1": {
-            "get_star_ts": "1606905594"
-          },
-          "2": {
-            "get_star_ts": "1606907095"
-          }
-        },
-        "1": {
-          "1": {
-            "get_star_ts": "1606827161"
-          },
-          "2": {
-            "get_star_ts": "1606835752"
-          }
-        }
-      },
-      "last_star_ts": "1606907095",
-      "name": "lukasimcic",
-      "stars": 4,
-      "global_score": 0,
-      "local_score": 66,
-      "id": "981742"
-    },
-    "974630": {
-      "stars": 2,
-      "global_score": 0,
-      "local_score": 0,
-      "id": "974630",
-      "completion_day_level": {
-        "1": {
-          "1": {
-            "get_star_ts": "1606820846"
-          },
-          "2": {
-            "get_star_ts": "1606852162"
-          }
-        }
-      },
-      "last_star_ts": "1606852162",
-      "name": "mitja"
+      "global_score": 0
     }
   },
-  "owner_id": "7040"
+  "event": "2020"
 }

@@ -79,8 +79,8 @@
                 "2": {
                     "language": null,
                     "solution_confirmed": false,
-                    "solved": false,
-                    "solved_time": null
+                    "solved": true,
+                    "solved_time": 1606923024
                 }
             }
         }
@@ -92,7 +92,22 @@
         "github_repo_link": "",
         "aoc_id": 984532,
         "aoc_name": "Ga\u0161per Petrovi\u010d",
-        "solution_data": {}
+        "solution_data": {
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606937475
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": false,
+                    "solved_time": null
+                }
+            }
+        }
     },
     {
         "name": "Tadej",
@@ -114,6 +129,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1606848807
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606932652
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606934656
                 }
             }
         }
@@ -352,6 +381,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1606852162
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606931973
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606936983
                 }
             }
         }
@@ -780,6 +823,20 @@
                     "solved": true,
                     "solved_time": 1606861902
                 }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606932096
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606933071
+                }
             }
         }
     },
@@ -989,7 +1046,22 @@
         "github_repo_link": "",
         "aoc_id": 979120,
         "aoc_name": "Timotej Stibilj",
-        "solution_data": {}
+        "solution_data": {
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606926475
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606930031
+                }
+            }
+        }
     },
     {
         "name": "Filip",
