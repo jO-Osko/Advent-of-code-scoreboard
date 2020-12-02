@@ -87,13 +87,13 @@ score assigmentResult =
 type alias AssigmentResult =
     { solutionConfirmed : Bool
     , solved : Bool
-    , solvedTime : Maybe Int
+    , solvedTime : Int
     }
 
 
 assigmentFromIntermediate : IntermediateDayResult -> AssigmentResult
 assigmentFromIntermediate inter =
-    { solutionConfirmed = inter.solutionConfirmed, solved = inter.solved, solvedTime = inter.solvedTime }
+    { solutionConfirmed = inter.solutionConfirmed, solved = inter.solved, solvedTime = Maybe.withDefault 0 inter.solvedTime }
 
 
 scoreInfo : Maybe ScoredAssigmentResult -> Maybe ScoredAssigmentResult -> ( AssigmentPoint, AssigmentPoint )
@@ -159,6 +159,7 @@ type alias Model =
     { users : List User
     , status : ModelStatus
     , dataS : String
+    , selectedUser : Maybe User
     }
 
 
@@ -167,4 +168,5 @@ initialModel =
     { users = []
     , status = Stable
     , dataS = ""
+    , selectedUser = Nothing
     }

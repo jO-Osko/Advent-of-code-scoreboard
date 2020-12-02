@@ -7,7 +7,7 @@ import Browser exposing (element)
 import DateTime exposing (DateTime)
 import Dict
 import Html exposing (..)
-import Html.Attributes exposing (class, href, target)
+import Html.Attributes exposing (class, href, style, target)
 import Html.Events exposing (onClick)
 import Http
 import Json.Decode as Decode exposing (Decoder, succeed)
@@ -170,6 +170,7 @@ decodeDayResult =
 type Msg
     = Refresh
     | GotJson (Result Http.Error (List User))
+    | SelectUser (Maybe User)
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
@@ -194,6 +195,9 @@ update msg model =
             in
             ( { model | users = users }, Cmd.none )
 
+        SelectUser maybeUser ->
+            ( { model | selectedUser = maybeUser }, Cmd.none )
+
 
 view : Model -> Html Msg
 view model =
@@ -207,24 +211,140 @@ view model =
             , Grid.col [] [ text "Preverjene točke" ]
             ]
          ]
-            ++ List.map
-                (\user ->
-                    Grid.row []
-                        [ Grid.col [] [ text (user.name ++ " " ++ user.surname) ]
-                        , Grid.col []
-                            [ case user.githubLink of
-                                Nothing ->
-                                    text ""
+            ++ List.concat
+                (List.map
+                    (\user ->
+                        [ Grid.row [ Row.attrs [ onClick (SelectUser (Just user)) ] ]
+                            [ Grid.col [] [ text (user.name ++ " " ++ user.surname) ]
+                            , Grid.col []
+                                [ case user.githubLink of
+                                    Nothing ->
+                                        text ""
 
-                                Just link ->
-                                    a [ href link, target "_blank" ] [ text "link" ]
+                                    Just link ->
+                                        a [ href link, target "_blank" ] [ text "link" ]
+                                ]
+                            , Grid.col [] [ text (showAssigmentPoint user.bestPoints) ]
+                            , Grid.col [] [ text (showAssigmentPoint user.confirmedSolutionPoints) ]
                             ]
-                        , Grid.col [] [ text (showAssigmentPoint user.bestPoints) ]
-                        , Grid.col [] [ text (showAssigmentPoint user.confirmedSolutionPoints) ]
                         ]
+                            ++ userDetailRow user model.selectedUser
+                    )
+                    (List.reverse (List.sortBy (assigmentToInt << .bestPoints) (List.filter (\user -> user.name /= "Filip") model.users)))
                 )
-                (List.reverse (List.sortBy (assigmentToInt << .bestPoints) (List.filter (\user -> user.name /= "Filip") model.users)))
         )
+
+
+userDetailRow : User -> Maybe User -> List (Html Msg)
+userDetailRow user selectedUser =
+    case selectedUser of
+        Nothing ->
+            []
+
+        Just u ->
+            if user == u then
+                [ fullUserDetailRow user ]
+
+            else
+                []
+
+
+fullUserDetailRow : User -> Html msg
+fullUserDetailRow user =
+    let
+        joinedResults =
+            removePairs
+                ((List.map (\( d, u ) -> ( d, Just u )) (Dict.toList user.dayResults) ++ List.map (\x -> ( x, Nothing )) (List.range 1 25))
+                    |> List.sortBy (\( x, _ ) -> x)
+                )
+
+        removePairs l =
+            case l of
+                ( d1, v1 ) :: ( d2, v2 ) :: xs ->
+                    if d1 == d2 then
+                        let
+                            rest =
+                                removePairs xs
+                        in
+                        case ( v1, v2 ) of
+                            ( Just v, _ ) ->
+                                ( d1, Just v ) :: rest
+
+                            ( _, Just v ) ->
+                                ( d2, Just v ) :: rest
+
+                            _ ->
+                                rest
+
+                    else
+                        ( d1, v1 ) :: removePairs (( d2, v2 ) :: xs)
+
+                xs ->
+                    xs
+    in
+    Grid.row []
+        (List.map
+            showDayCol
+            joinedResults
+        )
+
+
+getColor : AssigmentResult -> String
+getColor s =
+    if s.solved then
+        "green"
+
+    else
+        "silver"
+
+
+showStar : Int -> Maybe ScoredAssigmentResult -> Grid.Column msg
+showStar day mScAsRe =
+    case mScAsRe of
+        Nothing ->
+            Grid.col [ Col.attrs [ style "background-color" "red" ] ] [ text "0" ]
+
+        Just s ->
+            case
+                s.assigmentResult.solved
+            of
+                True ->
+                    case isSoonEnough day s.assigmentResult.solvedTime of
+                        True ->
+                            Grid.col [ Col.attrs [ style "background-color" "green" ] ] [ text "0.5" ]
+
+                        False ->
+                            Grid.col [ Col.attrs [ style "background-color" "orange" ] ] [ text "prepozno" ]
+
+                False ->
+                    Grid.col [ Col.attrs [ style "background-color" "red" ] ] [ text "0" ]
+
+
+startTime =
+    1606798800
+
+
+dayTimestamp =
+    24 * 60 * 60
+
+
+isSoonEnough : Int -> Int -> Bool
+isSoonEnough dayNum solvedTime =
+    startTime + (dayNum + 1) * dayTimestamp >= solvedTime
+
+
+showDayCol : ( Int, Maybe DayResult ) -> Grid.Column msg
+showDayCol ( day, results ) =
+    case results of
+        Nothing ->
+            Grid.col [ Col.md2 ] [ text <| "Dan:" ++ String.fromInt day ]
+
+        Just r ->
+            Grid.col [ Col.md2 ]
+                [ text <| "Dan:" ++ String.fromInt day ++ " " ++ showAssigmentPoint r.bestPoints
+                , Grid.row [] [ showStar day r.star1 ]
+                , Grid.row [] [ showStar day r.star2 ]
+                ]
 
 
 

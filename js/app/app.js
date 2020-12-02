@@ -10684,7 +10684,11 @@ var $author$project$Models$assigment_plus = F2(
 		return $author$project$Models$AssigmentPoint(p1 + p2);
 	});
 var $author$project$Models$assigmentFromIntermediate = function (inter) {
-	return {solutionConfirmed: inter.solutionConfirmed, solved: inter.solved, solvedTime: inter.solvedTime};
+	return {
+		solutionConfirmed: inter.solutionConfirmed,
+		solved: inter.solved,
+		solvedTime: A2($elm$core$Maybe$withDefault, 0, inter.solvedTime)
+	};
 };
 var $author$project$Models$IntermediateDayResult = F4(
 	function (language, solutionConfirmed, solved, solvedTime) {
@@ -11174,37 +11178,48 @@ var $author$project$App$initData = $elm$http$Http$get(
 		url: 'static/data.json'
 	});
 var $author$project$Models$Stable = {$: 'Stable'};
-var $author$project$Models$initialModel = {dataS: '', status: $author$project$Models$Stable, users: _List_Nil};
+var $author$project$Models$initialModel = {dataS: '', selectedUser: $elm$core$Maybe$Nothing, status: $author$project$Models$Stable, users: _List_Nil};
 var $elm$core$Platform$Sub$batch = _Platform_batch;
 var $elm$core$Platform$Sub$none = $elm$core$Platform$Sub$batch(_List_Nil);
 var $elm$core$Debug$log = _Debug_log;
 var $author$project$App$update = F2(
 	function (msg, model) {
-		if (msg.$ === 'Refresh') {
-			return _Utils_Tuple2(
-				model,
-				$elm$core$Platform$Cmd$batch(
-					_List_fromArray(
-						[$author$project$App$initData])));
-		} else {
-			var x = msg.a;
-			var users = function () {
-				if (x.$ === 'Ok') {
-					var r = x.a;
-					return r;
-				} else {
-					var err = x.a;
-					var _v2 = A2($elm$core$Debug$log, 'Error', err);
-					return _List_Nil;
-				}
-			}();
-			return _Utils_Tuple2(
-				_Utils_update(
+		switch (msg.$) {
+			case 'Refresh':
+				return _Utils_Tuple2(
 					model,
-					{users: users}),
-				$elm$core$Platform$Cmd$none);
+					$elm$core$Platform$Cmd$batch(
+						_List_fromArray(
+							[$author$project$App$initData])));
+			case 'GotJson':
+				var x = msg.a;
+				var users = function () {
+					if (x.$ === 'Ok') {
+						var r = x.a;
+						return r;
+					} else {
+						var err = x.a;
+						var _v2 = A2($elm$core$Debug$log, 'Error', err);
+						return _List_Nil;
+					}
+				}();
+				return _Utils_Tuple2(
+					_Utils_update(
+						model,
+						{users: users}),
+					$elm$core$Platform$Cmd$none);
+			default:
+				var maybeUser = msg.a;
+				return _Utils_Tuple2(
+					_Utils_update(
+						model,
+						{selectedUser: maybeUser}),
+					$elm$core$Platform$Cmd$none);
 		}
 	});
+var $author$project$App$SelectUser = function (a) {
+	return {$: 'SelectUser', a: a};
+};
 var $author$project$Models$assigmentToInt = function (_v0) {
 	var p = _v0.a;
 	return p;
@@ -12062,6 +12077,231 @@ var $author$project$Models$showAssigmentPoint = function (_v0) {
 };
 var $elm$core$List$sortBy = _List_sortBy;
 var $elm$html$Html$Attributes$target = $elm$html$Html$Attributes$stringProperty('target');
+var $rundis$elm_bootstrap$Bootstrap$Grid$Internal$Col2 = {$: 'Col2'};
+var $rundis$elm_bootstrap$Bootstrap$General$Internal$MD = {$: 'MD'};
+var $rundis$elm_bootstrap$Bootstrap$Grid$Internal$ColWidth = function (a) {
+	return {$: 'ColWidth', a: a};
+};
+var $rundis$elm_bootstrap$Bootstrap$Grid$Internal$width = F2(
+	function (size, count) {
+		return $rundis$elm_bootstrap$Bootstrap$Grid$Internal$ColWidth(
+			A2($rundis$elm_bootstrap$Bootstrap$Grid$Internal$Width, size, count));
+	});
+var $rundis$elm_bootstrap$Bootstrap$Grid$Col$md2 = A2($rundis$elm_bootstrap$Bootstrap$Grid$Internal$width, $rundis$elm_bootstrap$Bootstrap$General$Internal$MD, $rundis$elm_bootstrap$Bootstrap$Grid$Internal$Col2);
+var $rundis$elm_bootstrap$Bootstrap$Grid$Internal$ColAttrs = function (a) {
+	return {$: 'ColAttrs', a: a};
+};
+var $rundis$elm_bootstrap$Bootstrap$Grid$Col$attrs = function (attrs_) {
+	return $rundis$elm_bootstrap$Bootstrap$Grid$Internal$ColAttrs(attrs_);
+};
+var $author$project$App$dayTimestamp = (24 * 60) * 60;
+var $author$project$App$startTime = 1606798800;
+var $author$project$App$isSoonEnough = F2(
+	function (dayNum, solvedTime) {
+		return _Utils_cmp($author$project$App$startTime + ((dayNum + 1) * $author$project$App$dayTimestamp), solvedTime) > -1;
+	});
+var $author$project$App$showStar = F2(
+	function (day, mScAsRe) {
+		if (mScAsRe.$ === 'Nothing') {
+			return A2(
+				$rundis$elm_bootstrap$Bootstrap$Grid$col,
+				_List_fromArray(
+					[
+						$rundis$elm_bootstrap$Bootstrap$Grid$Col$attrs(
+						_List_fromArray(
+							[
+								A2($elm$html$Html$Attributes$style, 'background-color', 'red')
+							]))
+					]),
+				_List_fromArray(
+					[
+						$elm$html$Html$text('0')
+					]));
+		} else {
+			var s = mScAsRe.a;
+			var _v1 = s.assigmentResult.solved;
+			if (_v1) {
+				var _v2 = A2($author$project$App$isSoonEnough, day, s.assigmentResult.solvedTime);
+				if (_v2) {
+					return A2(
+						$rundis$elm_bootstrap$Bootstrap$Grid$col,
+						_List_fromArray(
+							[
+								$rundis$elm_bootstrap$Bootstrap$Grid$Col$attrs(
+								_List_fromArray(
+									[
+										A2($elm$html$Html$Attributes$style, 'background-color', 'green')
+									]))
+							]),
+						_List_fromArray(
+							[
+								$elm$html$Html$text('0.5')
+							]));
+				} else {
+					return A2(
+						$rundis$elm_bootstrap$Bootstrap$Grid$col,
+						_List_fromArray(
+							[
+								$rundis$elm_bootstrap$Bootstrap$Grid$Col$attrs(
+								_List_fromArray(
+									[
+										A2($elm$html$Html$Attributes$style, 'background-color', 'orange')
+									]))
+							]),
+						_List_fromArray(
+							[
+								$elm$html$Html$text('prepozno')
+							]));
+				}
+			} else {
+				return A2(
+					$rundis$elm_bootstrap$Bootstrap$Grid$col,
+					_List_fromArray(
+						[
+							$rundis$elm_bootstrap$Bootstrap$Grid$Col$attrs(
+							_List_fromArray(
+								[
+									A2($elm$html$Html$Attributes$style, 'background-color', 'red')
+								]))
+						]),
+					_List_fromArray(
+						[
+							$elm$html$Html$text('0')
+						]));
+			}
+		}
+	});
+var $author$project$App$showDayCol = function (_v0) {
+	var day = _v0.a;
+	var results = _v0.b;
+	if (results.$ === 'Nothing') {
+		return A2(
+			$rundis$elm_bootstrap$Bootstrap$Grid$col,
+			_List_fromArray(
+				[$rundis$elm_bootstrap$Bootstrap$Grid$Col$md2]),
+			_List_fromArray(
+				[
+					$elm$html$Html$text(
+					'Dan:' + $elm$core$String$fromInt(day))
+				]));
+	} else {
+		var r = results.a;
+		return A2(
+			$rundis$elm_bootstrap$Bootstrap$Grid$col,
+			_List_fromArray(
+				[$rundis$elm_bootstrap$Bootstrap$Grid$Col$md2]),
+			_List_fromArray(
+				[
+					$elm$html$Html$text(
+					'Dan:' + ($elm$core$String$fromInt(day) + (' ' + $author$project$Models$showAssigmentPoint(r.bestPoints)))),
+					A2(
+					$rundis$elm_bootstrap$Bootstrap$Grid$row,
+					_List_Nil,
+					_List_fromArray(
+						[
+							A2($author$project$App$showStar, day, r.star1)
+						])),
+					A2(
+					$rundis$elm_bootstrap$Bootstrap$Grid$row,
+					_List_Nil,
+					_List_fromArray(
+						[
+							A2($author$project$App$showStar, day, r.star2)
+						]))
+				]));
+	}
+};
+var $author$project$App$fullUserDetailRow = function (user) {
+	var removePairs = function (l) {
+		if (l.b && l.b.b) {
+			var _v1 = l.a;
+			var d1 = _v1.a;
+			var v1 = _v1.b;
+			var _v2 = l.b;
+			var _v3 = _v2.a;
+			var d2 = _v3.a;
+			var v2 = _v3.b;
+			var xs = _v2.b;
+			if (_Utils_eq(d1, d2)) {
+				var rest = removePairs(xs);
+				var _v4 = _Utils_Tuple2(v1, v2);
+				if (_v4.a.$ === 'Just') {
+					var v = _v4.a.a;
+					return A2(
+						$elm$core$List$cons,
+						_Utils_Tuple2(
+							d1,
+							$elm$core$Maybe$Just(v)),
+						rest);
+				} else {
+					if (_v4.b.$ === 'Just') {
+						var v = _v4.b.a;
+						return A2(
+							$elm$core$List$cons,
+							_Utils_Tuple2(
+								d2,
+								$elm$core$Maybe$Just(v)),
+							rest);
+					} else {
+						return rest;
+					}
+				}
+			} else {
+				return A2(
+					$elm$core$List$cons,
+					_Utils_Tuple2(d1, v1),
+					removePairs(
+						A2(
+							$elm$core$List$cons,
+							_Utils_Tuple2(d2, v2),
+							xs)));
+			}
+		} else {
+			var xs = l;
+			return xs;
+		}
+	};
+	var joinedResults = removePairs(
+		A2(
+			$elm$core$List$sortBy,
+			function (_v6) {
+				var x = _v6.a;
+				return x;
+			},
+			_Utils_ap(
+				A2(
+					$elm$core$List$map,
+					function (_v5) {
+						var d = _v5.a;
+						var u = _v5.b;
+						return _Utils_Tuple2(
+							d,
+							$elm$core$Maybe$Just(u));
+					},
+					$elm$core$Dict$toList(user.dayResults)),
+				A2(
+					$elm$core$List$map,
+					function (x) {
+						return _Utils_Tuple2(x, $elm$core$Maybe$Nothing);
+					},
+					A2($elm$core$List$range, 1, 25)))));
+	return A2(
+		$rundis$elm_bootstrap$Bootstrap$Grid$row,
+		_List_Nil,
+		A2($elm$core$List$map, $author$project$App$showDayCol, joinedResults));
+};
+var $author$project$App$userDetailRow = F2(
+	function (user, selectedUser) {
+		if (selectedUser.$ === 'Nothing') {
+			return _List_Nil;
+		} else {
+			var u = selectedUser.a;
+			return _Utils_eq(user, u) ? _List_fromArray(
+				[
+					$author$project$App$fullUserDetailRow(user)
+				]) : _List_Nil;
+		}
+	});
 var $author$project$App$view = function (model) {
 	return A2(
 		$rundis$elm_bootstrap$Bootstrap$Grid$container,
@@ -12135,79 +12375,94 @@ var $author$project$App$view = function (model) {
 								]))
 						]))
 				]),
-			A2(
-				$elm$core$List$map,
-				function (user) {
-					return A2(
-						$rundis$elm_bootstrap$Bootstrap$Grid$row,
-						_List_Nil,
-						_List_fromArray(
-							[
-								A2(
-								$rundis$elm_bootstrap$Bootstrap$Grid$col,
-								_List_Nil,
-								_List_fromArray(
-									[
-										$elm$html$Html$text(user.name + (' ' + user.surname))
-									])),
-								A2(
-								$rundis$elm_bootstrap$Bootstrap$Grid$col,
-								_List_Nil,
-								_List_fromArray(
-									[
-										function () {
-										var _v0 = user.githubLink;
-										if (_v0.$ === 'Nothing') {
-											return $elm$html$Html$text('');
-										} else {
-											var link = _v0.a;
-											return A2(
-												$elm$html$Html$a,
-												_List_fromArray(
-													[
-														$elm$html$Html$Attributes$href(link),
-														$elm$html$Html$Attributes$target('_blank')
-													]),
-												_List_fromArray(
-													[
-														$elm$html$Html$text('link')
-													]));
-										}
-									}()
-									])),
-								A2(
-								$rundis$elm_bootstrap$Bootstrap$Grid$col,
-								_List_Nil,
-								_List_fromArray(
-									[
-										$elm$html$Html$text(
-										$author$project$Models$showAssigmentPoint(user.bestPoints))
-									])),
-								A2(
-								$rundis$elm_bootstrap$Bootstrap$Grid$col,
-								_List_Nil,
-								_List_fromArray(
-									[
-										$elm$html$Html$text(
-										$author$project$Models$showAssigmentPoint(user.confirmedSolutionPoints))
-									]))
-							]));
-				},
-				$elm$core$List$reverse(
-					A2(
-						$elm$core$List$sortBy,
+			$elm$core$List$concat(
+				A2(
+					$elm$core$List$map,
+					function (user) {
+						return _Utils_ap(
+							_List_fromArray(
+								[
+									A2(
+									$rundis$elm_bootstrap$Bootstrap$Grid$row,
+									_List_fromArray(
+										[
+											$rundis$elm_bootstrap$Bootstrap$Grid$Row$attrs(
+											_List_fromArray(
+												[
+													$elm$html$Html$Events$onClick(
+													$author$project$App$SelectUser(
+														$elm$core$Maybe$Just(user)))
+												]))
+										]),
+									_List_fromArray(
+										[
+											A2(
+											$rundis$elm_bootstrap$Bootstrap$Grid$col,
+											_List_Nil,
+											_List_fromArray(
+												[
+													$elm$html$Html$text(user.name + (' ' + user.surname))
+												])),
+											A2(
+											$rundis$elm_bootstrap$Bootstrap$Grid$col,
+											_List_Nil,
+											_List_fromArray(
+												[
+													function () {
+													var _v0 = user.githubLink;
+													if (_v0.$ === 'Nothing') {
+														return $elm$html$Html$text('');
+													} else {
+														var link = _v0.a;
+														return A2(
+															$elm$html$Html$a,
+															_List_fromArray(
+																[
+																	$elm$html$Html$Attributes$href(link),
+																	$elm$html$Html$Attributes$target('_blank')
+																]),
+															_List_fromArray(
+																[
+																	$elm$html$Html$text('link')
+																]));
+													}
+												}()
+												])),
+											A2(
+											$rundis$elm_bootstrap$Bootstrap$Grid$col,
+											_List_Nil,
+											_List_fromArray(
+												[
+													$elm$html$Html$text(
+													$author$project$Models$showAssigmentPoint(user.bestPoints))
+												])),
+											A2(
+											$rundis$elm_bootstrap$Bootstrap$Grid$col,
+											_List_Nil,
+											_List_fromArray(
+												[
+													$elm$html$Html$text(
+													$author$project$Models$showAssigmentPoint(user.confirmedSolutionPoints))
+												]))
+										]))
+								]),
+							A2($author$project$App$userDetailRow, user, model.selectedUser));
+					},
+					$elm$core$List$reverse(
 						A2(
-							$elm$core$Basics$composeL,
-							$author$project$Models$assigmentToInt,
-							function ($) {
-								return $.bestPoints;
-							}),
-						A2(
-							$elm$core$List$filter,
-							function (user) {
-								return user.name !== 'Filip';
-							},
-							model.users))))));
+							$elm$core$List$sortBy,
+							A2(
+								$elm$core$Basics$composeL,
+								$author$project$Models$assigmentToInt,
+								function ($) {
+									return $.bestPoints;
+								}),
+							A2(
+								$elm$core$List$filter,
+								function (user) {
+									return user.name !== 'Filip';
+								},
+								model.users)))))));
 };
 var $author$project$App$main = $elm$browser$Browser$element(
 	{
@@ -12225,4 +12480,4 @@ var $author$project$App$main = $elm$browser$Browser$element(
 		view: $author$project$App$view
 	});
 _Platform_export({'App':{'init':$author$project$App$main(
-	$elm$json$Json$Decode$succeed(_Utils_Tuple0))({"versions":{"elm":"0.19.1"},"types":{"message":"App.Msg","aliases":{"Models.AssigmentResult":{"args":[],"type":"{ solutionConfirmed : Basics.Bool, solved : Basics.Bool, solvedTime : Maybe.Maybe Basics.Int }"},"Models.DayResult":{"args":[],"type":"{ star1 : Maybe.Maybe Models.ScoredAssigmentResult, star2 : Maybe.Maybe Models.ScoredAssigmentResult, bestPoints : Models.AssigmentPoint, confirmedSolutionPoints : Models.AssigmentPoint, day : Basics.Int }"},"Models.ScoredAssigmentResult":{"args":[],"type":"{ assigmentResult : Models.AssigmentResult, bestPoints : Models.AssigmentPoint, confirmedSolutionPoints : Models.AssigmentPoint }"},"Models.User":{"args":[],"type":"{ name : String.String, surname : String.String, githubLink : Maybe.Maybe String.String, githubRepoLink : Maybe.Maybe String.String, aocId : Maybe.Maybe Basics.Int, bestPoints : Models.AssigmentPoint, confirmedSolutionPoints : Models.AssigmentPoint, dayResults : Dict.Dict Basics.Int Models.DayResult }"}},"unions":{"App.Msg":{"args":[],"tags":{"Refresh":[],"GotJson":["Result.Result Http.Error (List.List Models.User)"]}},"Models.AssigmentPoint":{"args":[],"tags":{"AssigmentPoint":["Basics.Int"]}},"Basics.Bool":{"args":[],"tags":{"True":[],"False":[]}},"Dict.Dict":{"args":["k","v"],"tags":{"RBNode_elm_builtin":["Dict.NColor","k","v","Dict.Dict k v","Dict.Dict k v"],"RBEmpty_elm_builtin":[]}},"Http.Error":{"args":[],"tags":{"BadUrl":["String.String"],"Timeout":[],"NetworkError":[],"BadStatus":["Basics.Int"],"BadBody":["String.String"]}},"Basics.Int":{"args":[],"tags":{"Int":[]}},"List.List":{"args":["a"],"tags":{}},"Maybe.Maybe":{"args":["a"],"tags":{"Just":["a"],"Nothing":[]}},"Result.Result":{"args":["error","value"],"tags":{"Ok":["value"],"Err":["error"]}},"String.String":{"args":[],"tags":{"String":[]}},"Dict.NColor":{"args":[],"tags":{"Red":[],"Black":[]}}}}})}});}(this));
+	$elm$json$Json$Decode$succeed(_Utils_Tuple0))({"versions":{"elm":"0.19.1"},"types":{"message":"App.Msg","aliases":{"Models.AssigmentResult":{"args":[],"type":"{ solutionConfirmed : Basics.Bool, solved : Basics.Bool, solvedTime : Basics.Int }"},"Models.DayResult":{"args":[],"type":"{ star1 : Maybe.Maybe Models.ScoredAssigmentResult, star2 : Maybe.Maybe Models.ScoredAssigmentResult, bestPoints : Models.AssigmentPoint, confirmedSolutionPoints : Models.AssigmentPoint, day : Basics.Int }"},"Models.ScoredAssigmentResult":{"args":[],"type":"{ assigmentResult : Models.AssigmentResult, bestPoints : Models.AssigmentPoint, confirmedSolutionPoints : Models.AssigmentPoint }"},"Models.User":{"args":[],"type":"{ name : String.String, surname : String.String, githubLink : Maybe.Maybe String.String, githubRepoLink : Maybe.Maybe String.String, aocId : Maybe.Maybe Basics.Int, bestPoints : Models.AssigmentPoint, confirmedSolutionPoints : Models.AssigmentPoint, dayResults : Dict.Dict Basics.Int Models.DayResult }"}},"unions":{"App.Msg":{"args":[],"tags":{"Refresh":[],"GotJson":["Result.Result Http.Error (List.List Models.User)"],"SelectUser":["Maybe.Maybe Models.User"]}},"Models.AssigmentPoint":{"args":[],"tags":{"AssigmentPoint":["Basics.Int"]}},"Basics.Bool":{"args":[],"tags":{"True":[],"False":[]}},"Dict.Dict":{"args":["k","v"],"tags":{"RBNode_elm_builtin":["Dict.NColor","k","v","Dict.Dict k v","Dict.Dict k v"],"RBEmpty_elm_builtin":[]}},"Http.Error":{"args":[],"tags":{"BadUrl":["String.String"],"Timeout":[],"NetworkError":[],"BadStatus":["Basics.Int"],"BadBody":["String.String"]}},"Basics.Int":{"args":[],"tags":{"Int":[]}},"List.List":{"args":["a"],"tags":{}},"Maybe.Maybe":{"args":["a"],"tags":{"Just":["a"],"Nothing":[]}},"Result.Result":{"args":["error","value"],"tags":{"Ok":["value"],"Err":["error"]}},"String.String":{"args":[],"tags":{"String":[]}},"Dict.NColor":{"args":[],"tags":{"Red":[],"Black":[]}}}}})}});}(this));
