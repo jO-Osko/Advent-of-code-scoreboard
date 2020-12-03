@@ -121,13 +121,21 @@ for aoc_id, user in aoc_data["members"].items():
             day_2.solved = True
             day_2.solved_time = int(day_2_info["get_star_ts"])
 
+
+def sort_dict(d):
+    return {
+        k: v for k, v in sorted(d.items(), key=lambda x: x[0])
+    }
+
+
+users.sort(key=lambda x: x.aoc_id)
+
 out_data = json.dumps(users, indent=2, cls=JSONSerializableEncoder)
 open(BASE_FILE, "w").write(out_data)
 
 full_users = users + new_users
 out_users = json.dumps(full_users, indent=4, cls=JSONSerializableEncoder)
 open(BASE_FILE, "w").write(out_users)
-
 
 # Manjkajoči na scoreboardu:
 # https://github.com/golobluka/AdventOfCode Luka Golob
