@@ -20,6 +20,20 @@
                     "solved": true,
                     "solved_time": 1606866451
                 }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606954014
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": false,
+                    "solved_time": null
+                }
             }
         }
     },
@@ -182,6 +196,20 @@
                     "solved": true,
                     "solved_time": 1606885632
                 }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606971763
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606971856
+                }
             }
         }
     },
@@ -243,6 +271,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1606895002
+                }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606983447
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": false,
+                    "solved_time": null
                 }
             }
         }
@@ -319,6 +361,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1606910889
+                }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606984964
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": false,
+                    "solved_time": null
                 }
             }
         }
@@ -519,6 +575,20 @@
                     "solved": true,
                     "solved_time": 1606911557
                 }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606985103
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": false,
+                    "solved_time": null
+                }
             }
         }
     },
@@ -565,6 +635,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1606905745
+                }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606981539
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606982213
                 }
             }
         }
@@ -713,6 +797,20 @@
                     "solved": true,
                     "solved_time": 1606900149
                 }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606977597
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606983298
+                }
             }
         }
     },
@@ -788,6 +886,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1606897403
+                }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606984453
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606984939
                 }
             }
         }
@@ -927,6 +1039,20 @@
                     "solved": true,
                     "solved_time": 1606899054
                 }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606973785
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606974531
+                }
             }
         }
     },
@@ -959,6 +1085,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1606858122
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606950035
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606951777
                 }
             }
         }
@@ -1030,6 +1170,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1606875396
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606955635
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606957224
                 }
             }
         }
@@ -1177,6 +1331,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1606913184
+                }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606980006
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606980694
                 }
             }
         }
