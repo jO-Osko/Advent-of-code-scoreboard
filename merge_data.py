@@ -124,23 +124,24 @@ for aoc_id, user in aoc_data["members"].items():
 
 def sort_dict(d):
     return {
-        k: v for k, v in sorted(d.items(), key=lambda x: x[0])
+        k: (sort_dict(v) if isinstance(v, dict) else v)
+        for k, v in sorted(d.items(), key=lambda x: int(x[0]) if x[0].isdigit() else len(x[0]) )
     }
 
 
 users.sort(key=lambda x: x.aoc_id)
 
-out_data = json.dumps(users, indent=2, cls=JSONSerializableEncoder)
-open(BASE_FILE, "w").write(out_data)
-
 full_users = users + new_users
-out_users = json.dumps(full_users, indent=4, cls=JSONSerializableEncoder)
+out_users = json.dumps(full_users, indent=4, cls=JSONSerializableEncoder,
+                       ensure_ascii=False)
 open(BASE_FILE, "w").write(out_users)
+
+open(AOC_INPUT_FILE, "w", encoding="utf-8").write(
+    json.dumps(sort_dict(aoc_data), indent=2, ensure_ascii=False)
+)
 
 # Manjkajoči na scoreboardu:
 # https://github.com/golobluka/AdventOfCode Luka Golob
 # https://github.com/MTrdin/resevanje_advent_of_code Meta Trdin
 # https://github.com/matejmelansek/AdventOfCode Matej Melanšek
 # https://github.com/NinaKlem/PROG1-AoC Nina Klemenčič
-
-

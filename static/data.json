@@ -53,7 +53,7 @@
     },
     {
         "name": "Mihael",
-        "surname": "Ber\u010di\u010d",
+        "surname": "Berčič",
         "github_link": "",
         "github_repo_link": "",
         "aoc_id": 99706,
@@ -105,11 +105,11 @@
     },
     {
         "name": "Bor",
-        "surname": "Gro\u0161elj Simi\u0107",
+        "surname": "Grošelj Simić",
         "github_link": "https://git.sr.ht/~turminal/aoc2020",
         "github_repo_link": "",
         "aoc_id": 143532,
-        "aoc_name": "Bor Gro\u0161elj Simi\u0107",
+        "aoc_name": "Bor Grošelj Simić",
         "solution_data": {
             "1": {
                 "1": {
@@ -138,16 +138,30 @@
                     "solved": true,
                     "solved_time": 1606957224
                 }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606989326
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1607000341
+                }
             }
         }
     },
     {
         "name": "Jon",
-        "surname": "Miko\u0161",
+        "surname": "Mikoš",
         "github_link": "https://github.com/MikosJon/AdventOfCode2020",
         "github_repo_link": "",
         "aoc_id": 149792,
-        "aoc_name": "Jon Miko\u0161",
+        "aoc_name": "Jon Mikoš",
         "solution_data": {
             "1": {
                 "1": {
@@ -214,16 +228,30 @@
                     "solved": true,
                     "solved_time": 1606914512
                 }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606990318
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606992840
+                }
             }
         }
     },
     {
-        "name": "Matev\u017e",
-        "surname": "Mi\u0161\u010di\u010d",
+        "name": "Matevž",
+        "surname": "Miščič",
         "github_link": "https://github.com/MatevzMiscic/AdventOfCode",
         "github_repo_link": "",
         "aoc_id": 514827,
-        "aoc_name": "Matev\u017e Mi\u0161\u010di\u010d",
+        "aoc_name": "Matevž Miščič",
         "solution_data": {
             "1": {
                 "1": {
@@ -263,8 +291,8 @@
                 "2": {
                     "language": null,
                     "solution_confirmed": false,
-                    "solved": false,
-                    "solved_time": null
+                    "solved": true,
+                    "solved_time": 1606986198
                 }
             }
         }
@@ -332,7 +360,7 @@
     },
     {
         "name": "Teodora",
-        "surname": "Cvetkovi\u0107",
+        "surname": "Cvetković",
         "github_link": "https://github.com/Teodora-Cvetkovic/Advent-of-Code-2020",
         "github_repo_link": "",
         "aoc_id": 955075,
@@ -369,7 +397,7 @@
         }
     },
     {
-        "name": "\u010cade\u017e",
+        "name": "Čadež",
         "surname": "David",
         "github_link": "https://github.com/CadezDavid/advent_of_code_2020",
         "github_repo_link": "",
@@ -422,11 +450,11 @@
     },
     {
         "name": "Tadej",
-        "surname": "Mohor\u010di\u010d",
+        "surname": "Mohorčič",
         "github_link": "https://github.com/TadejMohorcic/AOC20",
         "github_repo_link": "",
         "aoc_id": 963915,
-        "aoc_name": "Tadej Mohor\u010di\u010d",
+        "aoc_name": "Tadej Mohorčič",
         "solution_data": {
             "1": {
                 "1": {
@@ -455,12 +483,26 @@
                     "solved": true,
                     "solved_time": 1606934656
                 }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1607011359
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1607012433
+                }
             }
         }
     },
     {
         "name": "Beno",
-        "surname": "U\u010dakar",
+        "surname": "Učakar",
         "github_link": "https://github.com/benoucakar/Advent_of_code_2020",
         "github_repo_link": "",
         "aoc_id": 964205,
@@ -493,12 +535,26 @@
                     "solved": true,
                     "solved_time": 1606923024
                 }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606988040
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606990076
+                }
             }
         }
     },
     {
         "name": "Ana Julija",
-        "surname": "Pre\u0161eren",
+        "surname": "Prešeren",
         "github_link": "https://github.com/anajulijapreseren/Advent-of-Code-2020",
         "github_repo_link": "",
         "aoc_id": 964826,
@@ -559,11 +615,11 @@
     },
     {
         "name": "Urh",
-        "surname": "Primo\u017ei\u010d",
+        "surname": "Primožič",
         "github_link": "https://github.com/urhprimozic/advent-of-code-2020",
         "github_repo_link": "",
         "aoc_id": 969325,
-        "aoc_name": "Urh Primo\u017ei\u010d",
+        "aoc_name": "Urh Primožič",
         "solution_data": {
             "2": {
                 "1": {
@@ -591,6 +647,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1606858214
+                }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1607010346
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1607012435
                 }
             }
         }
@@ -629,6 +699,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1606913560
+                }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1607000813
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1607002349
                 }
             }
         }
@@ -679,15 +763,15 @@
                 "2": {
                     "language": null,
                     "solution_confirmed": false,
-                    "solved": false,
-                    "solved_time": null
+                    "solved": true,
+                    "solved_time": 1606992762
                 }
             }
         }
     },
     {
         "name": "Alan",
-        "surname": "Marini\u0107",
+        "surname": "Marinić",
         "github_link": "https://github.com/alanmarinic/AOC_pro1.git",
         "github_repo_link": "",
         "aoc_id": 970406,
@@ -740,8 +824,8 @@
                 "2": {
                     "language": null,
                     "solution_confirmed": false,
-                    "solved": false,
-                    "solved_time": null
+                    "solved": true,
+                    "solved_time": 1606986743
                 }
             }
         }
@@ -781,6 +865,20 @@
                     "solved": true,
                     "solved_time": 1606941063
                 }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606998014
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1607001103
+                }
             }
         }
     },
@@ -819,12 +917,26 @@
                     "solved": true,
                     "solved_time": 1606933071
                 }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1607030328
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1607031608
+                }
             }
         }
     },
     {
         "name": "Mitja",
-        "surname": "Mandi\u0161",
+        "surname": "Mandiš",
         "github_link": "https://github.com/mitja-mandic/advent-of-code",
         "github_repo_link": "",
         "aoc_id": 974630,
@@ -857,12 +969,26 @@
                     "solved": true,
                     "solved_time": 1606936983
                 }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1607028025
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1607029362
+                }
             }
         }
     },
     {
         "name": "Zala",
-        "surname": "Stopar \u0160pringer",
+        "surname": "Stopar Špringer",
         "github_link": "https://github.com/zalastopar/Advent-of-code",
         "github_repo_link": "",
         "aoc_id": 975455,
@@ -895,6 +1021,20 @@
                     "solved": true,
                     "solved_time": 1606921611
                 }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606986214
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606987286
+                }
             }
         }
     },
@@ -924,7 +1064,7 @@
     },
     {
         "name": "Domen",
-        "surname": "Gradi\u0161ek",
+        "surname": "Gradišek",
         "github_link": "https://github.com/Domengradisek/AdventOfCode.git",
         "github_repo_link": "",
         "aoc_id": 975970,
@@ -969,6 +1109,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1606843069
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": false,
+                    "solved_time": null
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1607025762
                 },
                 "2": {
                     "language": null,
@@ -1076,12 +1230,26 @@
                     "solved": true,
                     "solved_time": 1606854823
                 }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1607015425
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1607016771
+                }
             }
         }
     },
     {
         "name": "Luka",
-        "surname": "Sim\u010di\u010d",
+        "surname": "Simčič",
         "github_link": "https://github.com/lukasimcic/Advent-of-code-2020",
         "github_repo_link": "",
         "aoc_id": 981742,
@@ -1113,6 +1281,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1606907095
+                }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606990415
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606994057
                 }
             }
         }
@@ -1149,8 +1331,8 @@
                 "2": {
                     "language": null,
                     "solution_confirmed": false,
-                    "solved": false,
-                    "solved_time": null
+                    "solved": true,
+                    "solved_time": 1606991751
                 }
             }
         }
@@ -1176,16 +1358,44 @@
                     "solved": true,
                     "solved_time": 1606854184
                 }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606989524
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606990488
+                }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606992983
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606997410
+                }
             }
         }
     },
     {
-        "name": "Ga\u0161per",
-        "surname": "Petrovi\u010d",
+        "name": "Gašper",
+        "surname": "Petrovič",
         "github_link": "https://github.com/XeroxAndarian/Advent-of-Code",
         "github_repo_link": "",
         "aoc_id": 984532,
-        "aoc_name": "Ga\u0161per Petrovi\u010d",
+        "aoc_name": "Gašper Petrovič",
         "solution_data": {
             "1": {
                 "1": {
@@ -1200,12 +1410,26 @@
                     "solved": false,
                     "solved_time": null
                 }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1607011070
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1607013715
+                }
             }
         }
     },
     {
         "name": "Ana",
-        "surname": "Lueti\u0107",
+        "surname": "Luetić",
         "github_link": "https://github.com/lueticana/Advent-of-Code-2020",
         "github_repo_link": "",
         "aoc_id": 987025,
@@ -1238,25 +1462,39 @@
                     "solved": true,
                     "solved_time": 1606946798
                 }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1606999442
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1607017751
+                }
             }
         }
     },
     {
         "name": "Dejan",
-        "surname": "Peri\u0107",
+        "surname": "Perić",
         "github_link": "https://github.com/DejanPeric058/AdventOfCode",
         "github_repo_link": "",
         "aoc_id": 1004016,
-        "aoc_name": "Dejan Peri\u0107",
+        "aoc_name": "Dejan Perić",
         "solution_data": {}
     },
     {
         "name": "Tadej",
-        "surname": "Glin\u0161ek",
+        "surname": "Glinšek",
         "github_link": "https://github.com/TGlinsek/Naloge-Advent-of-Code-2020",
         "github_repo_link": "",
         "aoc_id": 1004453,
-        "aoc_name": "Tadej Glin\u0161ek",
+        "aoc_name": "Tadej Glinšek",
         "solution_data": {
             "2": {
                 "1": {
@@ -1284,6 +1522,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1606859460
+                }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1607004747
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1607012878
                 }
             }
         }
@@ -1322,6 +1574,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1606910698
+                }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1607002761
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1607006764
                 }
             }
         }
@@ -1369,6 +1635,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1606944739
+                }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1607028378
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1607031261
                 }
             }
         }
