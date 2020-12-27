@@ -5149,8 +5149,45 @@
                     "solved": false,
                     "solved_time": null
                 }
+            },
+            "25": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1608920839
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": false,
+                    "solved_time": null
+                }
+            },
+            "24": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1608938365
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": false,
+                    "solved_time": null
+                }
             }
         }
+    },
+    {
+        "name": "Filip",
+        "surname": "Bezjak",
+        "github_link": "https://github.com/FilipBezjak/AOC",
+        "github_repo_link": "https://github.com/FilipBezjak/AOC",
+        "aoc_id": 1033196,
+        "aoc_name": "FilipBezjak",
+        "solution_data": {}
     },
     {
         "name": "Filip",
