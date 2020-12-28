@@ -11250,17 +11250,6 @@ var $rundis$elm_bootstrap$Bootstrap$Grid$container = F2(
 				attributes),
 			children);
 	});
-var $elm$core$List$filter = F2(
-	function (isGood, list) {
-		return A3(
-			$elm$core$List$foldr,
-			F2(
-				function (x, xs) {
-					return isGood(x) ? A2($elm$core$List$cons, x, xs) : xs;
-				}),
-			_List_Nil,
-			list);
-	});
 var $elm$html$Html$h1 = _VirtualDom_node('h1');
 var $elm$html$Html$h3 = _VirtualDom_node('h3');
 var $rundis$elm_bootstrap$Bootstrap$Grid$Internal$Col = {$: 'Col'};
@@ -12457,12 +12446,7 @@ var $author$project$App$view = function (model) {
 								function ($) {
 									return $.bestPoints;
 								}),
-							A2(
-								$elm$core$List$filter,
-								function (user) {
-									return user.name !== 'Filip';
-								},
-								model.users)))))));
+							model.users))))));
 };
 var $author$project$App$main = $elm$browser$Browser$element(
 	{

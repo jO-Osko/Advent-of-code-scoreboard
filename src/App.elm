@@ -230,7 +230,11 @@ view model =
                         ]
                             ++ userDetailRow user model.selectedUser
                     )
-                    (List.reverse (List.sortBy (assigmentToInt << .bestPoints) (List.filter (\user -> user.name /= "Filip") model.users)))
+                    (model.users
+                        |> List.sortBy (assigmentToInt << .bestPoints)
+                        |> List.reverse
+                     {--|> List.filter (\user -> user.aocId /= Just 7040) --}
+                    )
                 )
         )
 
