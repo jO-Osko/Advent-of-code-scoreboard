@@ -18,9 +18,13 @@ fullPoint =
     halfPoint + halfPoint
 
 
+
+-- This is inverse
+
+
 pointMultiplier : number
 pointMultiplier =
-    fullPoint
+    fullPoint + fullPoint
 
 
 type AssigmentPoint
@@ -43,7 +47,7 @@ starAcquiredPoint =
 
 
 maxPoints =
-    10.0
+    5.0
 
 
 showAssigmentPoint : AssigmentPoint -> String
