@@ -12084,7 +12084,7 @@ var $rundis$elm_bootstrap$Bootstrap$Grid$Col$attrs = function (attrs_) {
 	return $rundis$elm_bootstrap$Bootstrap$Grid$Internal$ColAttrs(attrs_);
 };
 var $author$project$App$dayTimestamp = (24 * 60) * 60;
-var $author$project$App$startTime = 1606798800;
+var $author$project$App$startTime = 1638334800;
 var $author$project$App$isSoonEnough = F2(
 	function (dayNum, solvedTime) {
 		return _Utils_cmp($author$project$App$startTime + ((dayNum + 1) * $author$project$App$dayTimestamp), solvedTime) > -1;

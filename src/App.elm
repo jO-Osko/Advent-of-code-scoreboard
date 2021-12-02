@@ -325,7 +325,7 @@ showStar day mScAsRe =
 
 
 startTime =
-    1606798800
+    1638334800
 
 
 dayTimestamp =
