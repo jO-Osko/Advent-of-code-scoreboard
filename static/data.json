@@ -6,6 +6,674 @@
         "github_repo_link": "",
         "aoc_id": 7040,
         "aoc_name": "jO-Osko",
+        "solution_data": {
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638466705
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638466987
+                }
+            },
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638350460
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638351099
+                }
+            }
+        }
+    },
+    {
+        "name": "Lenart",
+        "surname": "Bučar",
+        "github_link": "https://github.com/LenartBucar/prog-1-bonus",
+        "github_repo_link": "",
+        "aoc_id": 214026,
+        "aoc_name": "Lenart Bucar",
+        "solution_data": {
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638334918
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638335131
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638421493
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638421596
+                }
+            }
+        }
+    },
+    {
+        "name": "",
+        "surname": "",
+        "github_link": "",
+        "github_repo_link": "",
+        "aoc_id": 630026,
+        "aoc_name": "Strah",
+        "solution_data": {
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638346893
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638347390
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638431626
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638431890
+                }
+            }
+        }
+    },
+    {
+        "name": "Gregor",
+        "surname": "Kikelj",
+        "github_link": "",
+        "github_repo_link": "",
+        "aoc_id": 632862,
+        "aoc_name": "grekiki",
+        "solution_data": {
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638334875
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638334924
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638421306
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638421371
+                }
+            }
+        }
+    },
+    {
+        "name": "Kristina",
+        "surname": "Vatovec",
+        "github_link": "https://github.com/Vatovec123/Advent_of_Code_2021",
+        "github_repo_link": "",
+        "aoc_id": 976166,
+        "aoc_name": "Vatovec123",
+        "solution_data": {
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638348537
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638364273
+                }
+            }
+        }
+    },
+    {
+        "name": "Jure",
+        "surname": "Smolar",
+        "github_link": "",
+        "github_repo_link": "",
+        "aoc_id": 979367,
+        "aoc_name": "Jure Smolar",
+        "solution_data": {
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638353177
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638354402
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638427960
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638428213
+                }
+            }
+        }
+    },
+    {
+        "name": "Katja",
+        "surname": "Berčič",
+        "github_link": "https://github.com/katjabercic/AdventOfCodeOcaml",
+        "github_repo_link": "",
+        "aoc_id": 1047209,
+        "aoc_name": "katjabercic",
+        "solution_data": {
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638363646
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638366230
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638451606
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638451961
+                }
+            }
+        }
+    },
+    {
+        "name": "",
+        "surname": "",
+        "github_link": "",
+        "github_repo_link": "",
+        "aoc_id": 1100706,
+        "aoc_name": "plojyon",
+        "solution_data": {
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638353235
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638353396
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638435190
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638435312
+                }
+            }
+        }
+    },
+    {
+        "name": "Luka",
+        "surname": "Horjak",
+        "github_link": "https://github.com/L3435/PROG1-Bonus",
+        "github_repo_link": "",
+        "aoc_id": 1494981,
+        "aoc_name": "Luka Horjak",
+        "solution_data": {
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638345208
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638345727
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638421516
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638421779
+                }
+            }
+        }
+    },
+    {
+        "name": "Peter Damian",
+        "surname": "Verček",
+        "github_link": "https://github.com/vercekpeterdamian/AoC_21",
+        "github_repo_link": "",
+        "aoc_id": 1515727,
+        "aoc_name": "vercekpeterdamian",
+        "solution_data": {
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638375599
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638377701
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638448210
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638449307
+                }
+            }
+        }
+    },
+    {
+        "name": "Jakob",
+        "surname": "Pogačnik Souvent",
+        "github_link": "https://github.com/JakobPogacnikSouvent/advent-of-code-solutions",
+        "github_repo_link": "",
+        "aoc_id": 1519154,
+        "aoc_name": "Jakob Pogacnik Souvent",
+        "solution_data": {
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638372526
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638373248
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638451722
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638451993
+                }
+            }
+        }
+    },
+    {
+        "name": "",
+        "surname": "",
+        "github_link": "",
+        "github_repo_link": "",
+        "aoc_id": 1526150,
+        "aoc_name": "eagul",
         "solution_data": {}
+    },
+    {
+        "name": "Matej",
+        "surname": "Novoselec",
+        "github_link": "https://github.com/matej23/Advent_of_code_2021",
+        "github_repo_link": "",
+        "aoc_id": 1531527,
+        "aoc_name": "Matej Novoselec",
+        "solution_data": {
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638453934
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638454846
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638458869
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638459328
+                }
+            }
+        }
+    },
+    {
+        "name": "Tina",
+        "surname": "Drnovšek",
+        "github_link": "https://github.com/tinadrnovsek/Advent-Of-Code",
+        "github_repo_link": "",
+        "aoc_id": 1532551,
+        "aoc_name": "tinadrnovsek",
+        "solution_data": {
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638367322
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638369646
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638451331
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638453862
+                }
+            }
+        }
+    },
+    {
+        "name": "Katarina",
+        "surname": "Brdnik",
+        "github_link": "https://github.com/katarinabrdnik/AdventOfCode2021",
+        "github_repo_link": "",
+        "aoc_id": 1532594,
+        "aoc_name": "Katarina Brdnik",
+        "solution_data": {}
+    },
+    {
+        "name": "Manca",
+        "surname": "Murn",
+        "github_link": "https://github.com/MancaMurn/AdventOfCode2021",
+        "github_repo_link": "",
+        "aoc_id": 1548179,
+        "aoc_name": "MancaMurn",
+        "solution_data": {}
+    },
+    {
+        "name": "Maša",
+        "surname": "Žaucer",
+        "github_link": "https://github.com/masazaucer/Advent_of_Code_2021",
+        "github_repo_link": "",
+        "aoc_id": 1549067,
+        "aoc_name": "masazaucer",
+        "solution_data": {
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638455403
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638469550
+                }
+            }
+        }
+    },
+    {
+        "name": "Tit",
+        "surname": "Šuman",
+        "github_link": "https://github.com/Tit200/EdventOfKowd",
+        "github_repo_link": "",
+        "aoc_id": 1550760,
+        "aoc_name": "Tit200",
+        "solution_data": {
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638465620
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": false,
+                    "solved_time": null
+                }
+            }
+        }
+    },
+    {
+        "name": "Job",
+        "surname": "Petrovčič",
+        "github_link": "https://github.com/JobPetrovcic/Advent-of-code-Ocaml",
+        "github_repo_link": "",
+        "aoc_id": 1552435,
+        "aoc_name": "Job Petrovčič",
+        "solution_data": {}
+    },
+    {
+        "name": "Tia",
+        "surname": "Krofel",
+        "github_link": "https://github.com/tiakrofel/AdventOfCode",
+        "github_repo_link": "",
+        "aoc_id": 1557062,
+        "aoc_name": "tiakrofel",
+        "solution_data": {
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638439151
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638461227
+                }
+            }
+        }
+    },
+    {
+        "name": "Gašper",
+        "surname": "Kozelj",
+        "github_link": "https://github.com/Gasper-Kozelj/AdventOfCode",
+        "github_repo_link": "",
+        "aoc_id": 1557505,
+        "aoc_name": "Gasper-Kozelj",
+        "solution_data": {
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638402355
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638434262
+                }
+            }
+        }
+    },
+    {
+        "name": "Tadeja",
+        "surname": "Možina",
+        "github_link": "https://github.com/MozinaTadeja/Advent-Of-Code",
+        "github_repo_link": "",
+        "aoc_id": 1560934,
+        "aoc_name": "MozinaTadeja",
+        "solution_data": {}
+    },
+    {
+        "name": "Mateja",
+        "surname": "Možina",
+        "github_link": "https://github.com/MozinaMateja/Advent-Of-Code",
+        "github_repo_link": "",
+        "aoc_id": 1560961,
+        "aoc_name": "MozinaMateja",
+        "solution_data": {}
+    },
+    {
+        "name": "Tim",
+        "surname": "Milanez",
+        "github_link": "https://github.com/milaneztim/AdventOfCode2021.git",
+        "github_repo_link": "",
+        "aoc_id": 1562959,
+        "aoc_name": "milaneztim",
+        "solution_data": {}
+    },
+    {
+        "name": "Andrej",
+        "surname": "Matevc",
+        "github_link": "https://github.com/TheValyrianFreehold/AoC.git",
+        "github_repo_link": "",
+        "aoc_id": 1595784,
+        "aoc_name": "Andrej Matevc",
+        "solution_data": {
+            "1": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638439031
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638444561
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638448840
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638453653
+                }
+            }
+        }
     }
 ]
