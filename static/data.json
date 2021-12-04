@@ -34,6 +34,34 @@
                     "solved": true,
                     "solved_time": 1638351099
                 }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638516270
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638517528
+                }
+            },
+            "4": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638607533
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638607849
+                }
             }
         }
     },
@@ -71,6 +99,34 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1638421596
+                }
+            },
+            "4": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638595036
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638596984
+                }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638508071
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638509749
                 }
             }
         }
@@ -110,6 +166,34 @@
                     "solved": true,
                     "solved_time": 1638431890
                 }
+            },
+            "4": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638625397
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638626406
+                }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638527213
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": false,
+                    "solved_time": null
+                }
             }
         }
     },
@@ -148,6 +232,34 @@
                     "solved": true,
                     "solved_time": 1638421371
                 }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638507831
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638508358
+                }
+            },
+            "4": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638594430
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638594580
+                }
             }
         }
     },
@@ -171,6 +283,34 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1638364273
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638473068
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638476348
+                }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638546140
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": false,
+                    "solved_time": null
                 }
             }
         }
@@ -210,6 +350,20 @@
                     "solved": true,
                     "solved_time": 1638428213
                 }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638531680
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638546604
+                }
             }
         }
     },
@@ -247,6 +401,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1638451961
+                }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638525285
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": false,
+                    "solved_time": null
                 }
             }
         }
@@ -286,6 +454,20 @@
                     "solved": true,
                     "solved_time": 1638435312
                 }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638507858
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638508418
+                }
             }
         }
     },
@@ -323,6 +505,34 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1638421779
+                }
+            },
+            "4": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638611781
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638612025
+                }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638507974
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638509158
                 }
             }
         }
@@ -362,6 +572,20 @@
                     "solved": true,
                     "solved_time": 1638449307
                 }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638538714
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638603277
+                }
             }
         }
     },
@@ -399,6 +623,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1638451993
+                }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638547944
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638553464
                 }
             }
         }
@@ -485,6 +723,20 @@
                     "solved": true,
                     "solved_time": 1638453862
                 }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638557212
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": false,
+                    "solved_time": null
+                }
             }
         }
     },
@@ -527,6 +779,20 @@
                     "solved": true,
                     "solved_time": 1638469550
                 }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638472075
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638474757
+                }
             }
         }
     },
@@ -548,8 +814,22 @@
                 "2": {
                     "language": null,
                     "solution_confirmed": false,
-                    "solved": false,
-                    "solved_time": null
+                    "solved": true,
+                    "solved_time": 1638486464
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638528438
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638529216
                 }
             }
         }
@@ -561,7 +841,22 @@
         "github_repo_link": "",
         "aoc_id": 1552435,
         "aoc_name": "Job Petrovčič",
-        "solution_data": {}
+        "solution_data": {
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638568604
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638569051
+                }
+            }
+        }
     },
     {
         "name": "Tia",
@@ -583,6 +878,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1638461227
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638568922
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638569523
                 }
             }
         }
@@ -607,6 +916,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1638434262
+                }
+            },
+            "2": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638483698
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638484459
                 }
             }
         }
@@ -672,6 +995,20 @@
                     "solution_confirmed": false,
                     "solved": true,
                     "solved_time": 1638453653
+                }
+            },
+            "3": {
+                "1": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638609003
+                },
+                "2": {
+                    "language": null,
+                    "solution_confirmed": false,
+                    "solved": true,
+                    "solved_time": 1638614036
                 }
             }
         }
